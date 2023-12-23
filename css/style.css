@@ -1,0 +1,59 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+:root {
+    --textGold: #C88B29;
+    --textBlueBold: #0160A3;
+    --backgroundBlue: #31A2BC;
+}
+
+.sectionOne {
+    background: linear-gradient(to right, hsl(205.28deg 95.21% 32.75%), hsl(190.22deg 100% 35.69%));
+    text-align: center;
+}
+
+.containFatherH1{
+
+}
+
+h1 {
+    font-size: 40px;
+    color: white;
+    font-weight: 600;
+    line-height: 0.5;
+    padding: 30px 30px 0;
+}
+.spanOne{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.containTextH1{
+    width: 200px;
+}
+
+.textH1 {
+    color: #d68a2f;
+    text-decoration: underline 5px;
+    font-size: 40px;
+    font-weight: 600;
+    padding: 15px;
+    
+    
+}
+.bi-arrow-down{
+    font-size: 5rem;
+}
+
+.containWomanH1{
+height: 400px ;
+background-image: url(../img/MUJER_H1.webp);
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+}
