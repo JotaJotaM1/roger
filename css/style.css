@@ -111,12 +111,13 @@ h1 {
 .buttonBook,
 .buttonGetAfree {
     width: 13rem;
-    height: 2.5rem;
+    height: 3rem;
     background-color: #d68a2f;
     color: var(--whiteGeneral);
     border-radius: 0.4rem;
     border: none;
     font-weight: 600;
+    font-size: 18px;
 }
 
 .register {
@@ -236,4 +237,10 @@ h1 {
 }
 .containeListManSorprise{
     padding: 35px 0;
+}
+
+/* Fourth section, comments */
+
+.containSectionFour{
+font-size: 50px;
 }
