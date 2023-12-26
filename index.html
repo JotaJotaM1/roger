@@ -35,12 +35,37 @@
         <!-- Primera seccion h1, imganen referente y formulario -->
 
         <section class="sectionOne">
-            <div class="containFatherH1">
-
-                <h1>WELCOME<br><span class="spanOne"> TO PUFF CLEANING</span></h1>
-                <p class="textH1">ALASKA</p>
+            <div class="flexContainer">
+                <div class="containFatherH1">
+                    <h1>WELCOME<br><span class="spanOne"> TO PUFF CLEANING</span></h1>
+                    <p class="textH1">ALASKA</p>
+                </div>
             </div>
-            <div class="containWomanH1"></div>
+            <div class="containFatherForm">
+                <form class="formLogin">
+                    <p class="LoginForm">LOGIN</p>
+
+                    <label class="labelForm" for="e-mail">User name or E-mail:</label>
+                    <input class="inputForm" type="email" id="e-mail" name="e-mail" required>
+
+                    <label class="labelForm" for="password">Password:</label>
+                    <input class="inputForm" type="password" id="password" name="password" required>
+
+                    <div class="containerRemember">
+                        <label class="labelForm" for="remember">Remember me</label>
+                        <input type="checkbox" id="remember" name="remember">
+                    </div>
+
+                    <div class="containerButtonLogin">
+
+                        <button class="buttonLogin">LOGIN</button>
+                        <a class="register" href="https://www.google.com/" target="_blank">
+                            <p>Register</p>
+                        </a>
+
+                    </div>
+                </form>
+            </div>
         </section>
 
 
