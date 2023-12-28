@@ -9,7 +9,7 @@
 }
 
 :root {
-    --textGold: #C88B29;
+    --textGold: #d48f21;
     --textBlueBold: #0160A3;
     --backgroundBlue: #31A2BC;
     --whiteGeneral: white;
@@ -40,7 +40,7 @@ h1 {
 }
 
 .textH1 {
-    color: #d68a2f;
+    color: var(--textGold);
     text-decoration: underline 5px;
     font-size: 60px;
     font-weight: 600;
@@ -111,8 +111,8 @@ h1 {
 .buttonBook,
 .buttonGetAfree {
     width: 13rem;
-    height: 3rem;
-    background-color: #d68a2f;
+    height: 3.3rem;
+    background-color: var(--textGold);
     color: var(--whiteGeneral);
     border-radius: 0.4rem;
     border: none;
@@ -219,28 +219,106 @@ h1 {
 
 .textManSorpraise,
 .textManSorpraiseThree {
-    font-size: 20px;
+    font-size: 23px;
 }
 
 .textManSorpraiseTwo {
-    font-size: 55px;
+    font-size: 60px;
     line-height: 0.9;
     font-weight: 800;
 }
 
 .listMainSorpraise {
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 600;
     color: var(--whiteGeneral);
     padding: 15px 0;
 }
-.containeListManSorprise{
+
+.containeListManSorprise {
     padding: 35px 0;
+}
+
+.buttonGetAfree {
+    margin-bottom: 40px;
 }
 
 /* Fourth section, comments */
 
-.containSectionFour{
-font-size: 50px;
+.contaFatheSectionFour {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.tittleComments,
+.textComments {
+    font-size: 45px;
+    color: var(--textBlueBold);
+    font-weight: 600;
+    text-align: center;
+}
+
+.textComments {
+    text-decoration: underline 5px var(--textGold);
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    background-color: var(--backgroundBlue);
+}
+.logoFooter {
+    height: 10rem;
+    width: auto;
+    margin: 40px 0 20px;
+}
+
+.bi-facebook,
+.bi-instagram,
+.bi-linkedin {
+    color: var(--whiteGeneral);
+    font-size: 30px;
+    padding: 0 10px;
+}
+
+.containerFatherInfo{
+    margin: 20px 0;
+}
+
+
+.containInfoEmail,
+.containInfoLocation,
+.containInfoPhone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.bi-envelope,
+.bi-geo-alt-fill,
+.bi-telephone-fill{
+    color: var(--whiteGeneral);
+    font-size: 25px;
+}
+
+.textEmail,
+.textLocation,
+.textPhone{
+    color: var(--whiteGeneral);
+    padding-left: 15px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.copyRight{
+    margin: 10px;
+    color: var(--whiteGeneral);
+    font-size: 10px;
 }
