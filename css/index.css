@@ -9,7 +9,7 @@
 }
 
 :root {
-    --textGold: #d48f21;
+    --textGold: #dd9219;
     --textBlueBold: #0160A3;
     --backgroundBlue: #31A2BC;
     --whiteGeneral: white;
@@ -27,7 +27,7 @@ h1 {
     color: white;
     font-weight: 600;
     line-height: 0.5;
-    padding: 30px 30px 0;
+    padding: 80px 30px 0;
 }
 
 .spanOne {
@@ -56,7 +56,7 @@ h1 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 30px 0;
+    padding: 30px 0 70px;
 }
 
 
@@ -118,6 +118,7 @@ h1 {
     border: none;
     font-weight: 600;
     font-size: 18px;
+    cursor: pointer;
 }
 
 .register {
@@ -208,7 +209,6 @@ h1 {
 .Man_sorpraise {
     height: auto;
     width: 380px;
-    padding: 56px 0 0;
 }
 
 .containFatherThree {
@@ -217,7 +217,6 @@ h1 {
 
 }
 
-.textManSorpraise,
 .textManSorpraiseThree {
     font-size: 23px;
 }
@@ -273,6 +272,7 @@ footer {
     font-family: 'Lato', sans-serif;
     background-color: var(--backgroundBlue);
 }
+
 .logoFooter {
     height: 10rem;
     width: auto;
@@ -287,7 +287,7 @@ footer {
     padding: 0 10px;
 }
 
-.containerFatherInfo{
+.containerFatherInfo {
     margin: 20px 0;
 }
 
@@ -303,22 +303,124 @@ footer {
 
 .bi-envelope,
 .bi-geo-alt-fill,
-.bi-telephone-fill{
+.bi-telephone-fill {
     color: var(--whiteGeneral);
     font-size: 25px;
 }
 
 .textEmail,
 .textLocation,
-.textPhone{
+.textPhone {
     color: var(--whiteGeneral);
     padding-left: 15px;
     font-size: 18px;
     font-weight: 300;
 }
 
-.copyRight{
+.copyRight {
     margin: 10px;
     color: var(--whiteGeneral);
     font-size: 10px;
+}
+
+@media screen and (min-width: 768px) {
+
+    h1 {
+        font-size: 80px;
+    }
+
+    .containFatherForm {
+        margin: 0 20%;
+    }
+
+    .spanOne {
+        font-size: 40px;
+    }
+
+    .textH1 {
+        font-size: 60px;
+    }
+
+    .titleH2 {
+        font-size: 70px;
+    }
+
+    .textH2 {
+        font-size: 25px;
+    }
+
+    .containImgDescrip {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .imgStepbyStep {
+        height: 190px;
+        width: 190px;
+    }
+
+    .containList {
+        flex-direction: row;
+    }
+
+    .containerDescription {
+        flex-direction: column;
+    }
+
+    .Man_sorpraise {
+        width: 450px
+    }
+
+    .textManSorpraiseTwo {
+        font-size: 80px;
+    }
+
+    .textManSorpraiseThree {
+        font-size: 25px;
+    }
+
+    .tittleComments,
+    .textComments {
+        font-size: 60px;
+    }
+
+    .textComments {
+        text-decoration: underline 8px var(--textGold);
+    }
+
+    footer {
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 40px 0;
+    }
+
+    .logoFooter {
+        margin: 0;
+    }
+
+    .bi-facebook,
+    .bi-instagram,
+    .bi-linkedin {
+        padding: 2px;
+    }
+
+    .containerFatherInfo {
+        margin: 0;
+    }
+
+    .containerFatherInfo {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .copyRight {
+        width: 70px;
+        margin: 10px;
+        color: var(--whiteGeneral);
+        font-size: 10px;
+        text-align: center;
+        font-weight: 300;
+    }
+
 }
