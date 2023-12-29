@@ -1,6 +1,6 @@
 header {
     width: 100%;
-    padding: 1rem;
+    padding: 0 1rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -8,7 +8,7 @@ header {
   }
 
   .LogoHeader{
-    height: 100px;
+    height: 80px;
 }
   
   .fatherAvatarHeader {
@@ -29,7 +29,7 @@ header {
     text-decoration: none;
     color:var(--textGold);
     font-size: 20px;
-    font-weight: 900;
+    font-weight: 400;
 }
   
   .navList li:hover a {
@@ -47,7 +47,8 @@ header {
     justify-content: center;
     align-items: center;
   }
-  .bi{
+  .bi-list, .bi-x{
+    font-size: 35px;
     color: #d58a00;
   }
 
