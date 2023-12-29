@@ -45,8 +45,9 @@ h1 {
     font-size: 60px;
     font-weight: 600;
     padding: 15px 0 20px;
-
-
+}
+.call-woman{
+    display: none;
 }
 
 /* Form styles */
@@ -263,10 +264,6 @@ h1 {
     text-align: center;
 }
 
-.textComments {
-    text-decoration: underline 5px var(--textGold);
-}
-
 footer {
     display: flex;
     flex-direction: column;
@@ -274,7 +271,8 @@ footer {
     align-items: center;
     font-family: 'Lato', sans-serif;
     background: linear-gradient(to right, hsl(205.28deg 95.21% 32.75%), hsl(190.22deg 100% 35.69%));
-    text-align: center;;
+    text-align: center;
+    ;
 }
 
 .logoFooter {
@@ -388,10 +386,6 @@ footer {
         font-size: 60px;
     }
 
-    .textComments {
-        text-decoration: underline 8px var(--textGold);
-    }
-
     footer {
         flex-direction: row;
         justify-content: space-around;
@@ -426,5 +420,48 @@ footer {
         text-align: center;
         font-weight: 300;
     }
+
+}
+@media screen and (min-width: 1024px){
+
+    .sectionOne{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .containFatherForm{
+        margin: 0;
+        width: 38%;
+    }
+    .call-woman{
+        display: block;
+        height: auto;
+        width: 166%;
+    }
+    .containFatherH1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    h1{
+        padding: 9px 30px 0;
+    } 
+    
+    .containFatherForm{
+        padding: 30px 0 26px;
+    }
+    .containWomanCall{
+        width: 30%;
+        display: flex;
+        justify-content: center;align-items: center;
+    }
+    .formLogin{
+        width: 100%;
+    }
+    .flexContainer{
+        width: 100%;
+    }
+
 
 }
