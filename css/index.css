@@ -17,6 +17,43 @@
 
 /* First section: h1, reference image, and form */
 
+.containeCardManSorprise {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    padding: 27px;
+    width: 75%;
+    text-align: center;
+}
+
+.broom {
+    height: auto;
+    width: 80px;
+}
+
+h3 {
+    font-size: 20px;
+    color: var(--whiteGeneral);
+    font-weight: 700;
+    padding: 20px 0;
+}
+
+.textCard {
+    font-size: 18px;
+    color: var(--whiteGeneral);
+    font-weight: 300;
+}
+
 .sectionOne {
     background: linear-gradient(to right, hsl(205.28deg 95.21% 32.75%), hsl(190.22deg 100% 35.69%));
     text-align: center;
@@ -46,7 +83,8 @@ h1 {
     font-weight: 600;
     padding: 15px 0 20px;
 }
-.call-woman{
+
+.call-woman {
     display: none;
 }
 
@@ -202,12 +240,16 @@ h1 {
 .containFatherThree,
 .contaFatheSectionThree,
 .containerFatherManSorprise {
-    background: linear-gradient(to left, hsl(205.28deg 95.21% 32.75%), hsl(190.22deg 100% 35.69%));
+
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.contaFatherSectionThree {
+    background: linear-gradient(to left, hsl(205.28deg 95.21% 32.75%), hsl(190.22deg 100% 35.69%));
 }
 
 .Man_sorpraise {
@@ -231,17 +273,6 @@ h1 {
     font-weight: 800;
 }
 
-.listMainSorpraise {
-    text-align: center;
-    font-size: 25px;
-    font-weight: 600;
-    color: var(--whiteGeneral);
-    padding: 15px 0;
-}
-
-.containeListManSorprise {
-    padding: 35px 0;
-}
 
 .buttonGetAfree {
     margin-bottom: 40px;
@@ -422,59 +453,100 @@ footer {
     }
 
 }
-@media screen and (min-width: 1024px){
 
-    .sectionOne{
+@media screen and (min-width: 1024px) {
+
+    .sectionOne {
         display: flex;
         justify-content: space-around;
         align-items: center;
     }
-    .containFatherForm{
+
+    .containFatherForm {
         margin: 0;
         width: 38%;
     }
-    .call-woman{
+
+    .call-woman {
         display: block;
         height: auto;
         width: 166%;
     }
-    .containFatherH1{
+
+    .containFatherH1 {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    h1{
+
+    h1 {
         padding: 9px 30px 0;
-    } 
-    
-    .containFatherForm{
+    }
+
+    .containFatherForm {
         padding: 30px 0 26px;
     }
-    .containWomanCall{
+
+    .containWomanCall {
         width: 30%;
         display: flex;
-        justify-content: center;align-items: center;
+        justify-content: center;
+        align-items: center;
     }
-    .formLogin{
+
+    .formLogin {
         width: 100%;
     }
-    .flexContainer{
+
+    .flexContainer {
         width: 100%;
     }
-    .contaFatheSectionTwo{
+
+    .contaFatheSectionTwo {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    .containerDescription{
+
+    .containerDescription {
         width: 70%;
     }
-    .containImgDescrip{
+
+    .containImgDescrip {
         justify-content: space-around;
     }
-    
 
+    .contaFatherSectionThree {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 100px 0;
+    }
 
+    .Man_sorpraise {
+        width: 550px;
+    }
+
+    .textManSorpraiseTwo {
+        font-size: 100px;
+    }
+
+    .textManSorpraiseThree {
+        font-size: 30px;
+    }
+
+    /* .containeCardManSorprise {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .card {
+        flex: 0 0 calc(25% - 20px);
+        margin: 10px;
+        box-sizing: border-box;
+        text-align: center;
+    } */
 }
