@@ -462,6 +462,19 @@ footer {
     .flexContainer{
         width: 100%;
     }
+    .contaFatheSectionTwo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .containerDescription{
+        width: 70%;
+    }
+    .containImgDescrip{
+        justify-content: space-around;
+    }
+    
 
 
 }
