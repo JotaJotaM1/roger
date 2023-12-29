@@ -17,43 +17,6 @@
 
 /* First section: h1, reference image, and form */
 
-.containeCardManSorprise {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-radius: 1rem;
-    padding: 27px;
-    width: 75%;
-    text-align: center;
-}
-
-.broom {
-    height: auto;
-    width: 80px;
-}
-
-h3 {
-    font-size: 20px;
-    color: var(--whiteGeneral);
-    font-weight: 700;
-    padding: 20px 0;
-}
-
-.textCard {
-    font-size: 18px;
-    color: var(--whiteGeneral);
-    font-weight: 300;
-}
-
 .sectionOne {
     background: linear-gradient(to right, hsl(205.28deg 95.21% 32.75%), hsl(190.22deg 100% 35.69%));
     text-align: center;
@@ -235,11 +198,11 @@ h1 {
     padding: 60px 0;
 }
 
-/* third section */
+/* third section  Man_Sorprise*/
 
 .containFatherThree,
 .contaFatheSectionThree,
-.containerFatherManSorprise {
+.containerFatherCard {
 
     text-align: center;
     display: flex;
@@ -252,27 +215,52 @@ h1 {
     background: linear-gradient(to left, hsl(205.28deg 95.21% 32.75%), hsl(190.22deg 100% 35.69%));
 }
 
-.Man_sorpraise {
-    height: auto;
-    width: 380px;
-}
-
 .containFatherThree {
     color: var(--whiteGeneral);
     font-weight: 600;
 
 }
 
-.textManSorpraiseThree {
+.textSectionThree {
     font-size: 23px;
 }
 
-.textManSorpraiseTwo {
+.textSectionTwo {
     font-size: 60px;
     line-height: 0.9;
     font-weight: 800;
 }
+.containerFatherCard{
+    gap: 1rem;
+}
+.cardContainer{
+background-color: var(--whiteGeneral);
+border-radius: 1rem;
+padding: 30px;
+box-shadow: 0px 0px 12px -5px black;
+width: 22rem;
 
+}
+
+.cardImgH3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    margin-bottom: 18px;
+}
+.IconsCard{
+    height: 100px;
+    width: auto;
+}
+.textH3Card{
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--textBlueBold);
+}
+.textCard{
+    color: var(--textBlueBold);
+}
 
 .buttonGetAfree {
     margin-bottom: 40px;
@@ -303,7 +291,6 @@ footer {
     font-family: 'Lato', sans-serif;
     background: linear-gradient(to right, hsl(205.28deg 95.21% 32.75%), hsl(190.22deg 100% 35.69%));
     text-align: center;
-    ;
 }
 
 .logoFooter {
@@ -400,15 +387,11 @@ footer {
         flex-direction: column;
     }
 
-    .Man_sorpraise {
-        width: 450px
-    }
-
-    .textManSorpraiseTwo {
+    .textSectionTwo {
         font-size: 80px;
     }
 
-    .textManSorpraiseThree {
+    .textSectionThree {
         font-size: 25px;
     }
 
@@ -525,28 +508,12 @@ footer {
         padding: 100px 0;
     }
 
-    .Man_sorpraise {
-        width: 550px;
-    }
-
-    .textManSorpraiseTwo {
+    .textSectionTwo {
         font-size: 100px;
     }
 
-    .textManSorpraiseThree {
+    .textSectionThree {
         font-size: 30px;
     }
 
-    /* .containeCardManSorprise {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-
-    .card {
-        flex: 0 0 calc(25% - 20px);
-        margin: 10px;
-        box-sizing: border-box;
-        text-align: center;
-    } */
 }
