@@ -22,7 +22,8 @@
     text-align: center;
 }
 
-h1 {
+h1,
+.textSectionTwo {
     font-size: 65px;
     color: white;
     font-weight: 600;
@@ -200,15 +201,12 @@ h1 {
 
 /* third section  Man_Sorprise*/
 
-.containFatherThree,
-.contaFatheSectionThree,
-.containerFatherCard {
 
-    text-align: center;
+.containerFatherCard {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
     justify-content: center;
-    align-items: center;
 }
 
 .contaFatherSectionThree {
@@ -216,13 +214,19 @@ h1 {
 }
 
 .containFatherThree {
+    text-align: center;
+    margin: 60px 0 40px;
     color: var(--whiteGeneral);
     font-weight: 600;
 
 }
 
 .textSectionThree {
-    font-size: 23px;
+    text-decoration: underline 5px;
+    color: var(--textGold);
+    font-size: 40px;
+    font-weight: 600;
+    padding: 15px 0 20px;
 }
 
 .textSectionTwo {
@@ -230,40 +234,57 @@ h1 {
     line-height: 0.9;
     font-weight: 800;
 }
-.containerFatherCard{
+
+.containerFatherCard {
+    padding-bottom: 100px;
     gap: 1rem;
 }
-.cardContainer{
-background-color: var(--whiteGeneral);
-border-radius: 1rem;
-padding: 30px;
-box-shadow: 0px 0px 12px -5px black;
-width: 22rem;
 
+.cardContainer {
+    background-color: var(--whiteGeneral);
+    border-radius: 1rem;
+    padding: 45px;
+    box-shadow: 0px 0px 12px -5px black;
+    width: 22rem;
 }
-
-.cardImgH3{
+.cardImgH3 {
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 18px;
+    align-items: end;
     margin-bottom: 18px;
 }
-.IconsCard{
+
+.IconsCard {
     height: 100px;
     width: auto;
 }
-.textH3Card{
+
+.textH3Card {
     font-size: 20px;
     font-weight: 700;
     color: var(--textBlueBold);
 }
-.textCard{
+
+.textCard {
+    text-align: left;
     color: var(--textBlueBold);
+}
+.containFatherButtonGet{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.containButtoGet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .buttonGetAfree {
-    margin-bottom: 40px;
+margin: 40px 0 20px;
+height: 2.5rem;
+width: 10rem;
 }
 
 /* Fourth section, comments */
@@ -378,6 +399,9 @@ footer {
         height: 190px;
         width: 190px;
     }
+    .StepbyStep {
+        font-size: 25px;
+    }
 
     .containList {
         flex-direction: row;
@@ -392,7 +416,7 @@ footer {
     }
 
     .textSectionThree {
-        font-size: 25px;
+        font-size: 60px;
     }
 
     .tittleComments,
@@ -501,19 +525,8 @@ footer {
         justify-content: space-around;
     }
 
-    .contaFatherSectionThree {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        padding: 100px 0;
-    }
-
     .textSectionTwo {
         font-size: 100px;
-    }
-
-    .textSectionThree {
-        font-size: 30px;
     }
 
 }
