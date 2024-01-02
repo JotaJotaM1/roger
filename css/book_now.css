@@ -19,6 +19,7 @@
 .containFatheBN,
 .containPrinBN,
 .containH1TextBN {
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -93,4 +94,7 @@
     position: absolute;
     height: 100%;
     max-width: 100%;
+}
+.mailto-link, .tel-link{
+    text-decoration: none;
 }
