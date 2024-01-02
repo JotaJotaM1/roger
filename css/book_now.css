@@ -54,7 +54,8 @@
     align-items: center;
     margin: 14px 0;
 }
-.containIconBN{
+
+.containIconBN {
     margin: 30px 0;
 }
 
@@ -64,37 +65,66 @@
     font-size: 35px;
     color: var(--textGold);
     padding-right: 10px;
-    
+
 }
 
-.textIconBN{
+.textIconBN {
     font-size: 20px;
     color: var(--textBlueBold);
 
 }
-.woman_cel_BN{
+
+.woman_cel_BN {
     height: 300px;
     width: 300px;
 }
+
 .googleMaps {
-    overflow: hidden;
-    padding-bottom: 56.25%;
     position: relative;
-    height: 100%;
-    max-width: 100%;
-    margin: 10px;
-    text-align: center; 
+    height: 400px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
 }
+
 .googleMaps iframe {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     left: 0;
     top: 0;
     position: absolute;
-    height: 100%;
-    max-width: 100%;
 }
-.mailto-link, .tel-link{
+
+.mailto-link,
+.tel-link {
     text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+    .containFatheBN {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .woman_cel_BN {
+        height: 400px;
+        width: 400px;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    .containFatheBN {
+        margin: 0 10%;
+    }
+
+    .googleMaps {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto 20px;
+        width: 80%;
+    }
+
+
 }
