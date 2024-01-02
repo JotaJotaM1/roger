@@ -22,30 +22,30 @@
     text-align: center;
 }
 
-h1,
-.textSectionTwo {
-    font-size: 65px;
-    color: white;
+.titleH1{
+    font-size:70px;
     font-weight: 600;
     line-height: 0.5;
-    padding: 80px 30px 0;
+    color: var(--whiteGeneral);
 }
-
-.spanOne {
-    font-size: 30px;
+.spanOne{
+    font-size: 35px;
     font-weight: 600;
+    margin: 0 0 40px;
 }
-
-.containTextH1 {
-    width: 200px;
-}
-
 .textH1 {
     color: var(--textGold);
     text-decoration: underline 5px;
     font-size: 60px;
     font-weight: 600;
     padding: 15px 0 20px;
+}
+.textSectionTwo {
+    font-size: 65px;
+    color: white;
+    font-weight: 600;
+    line-height: 0.5;
+    padding: 80px 30px 0;
 }
 
 .call-woman {
@@ -100,7 +100,6 @@ h1,
 .labelForm {
     padding: 10px 0;
 }
-
 
 /* Styles for input, buttons, and link */
 
@@ -315,69 +314,9 @@ h1,
     text-align: center;
 }
 
-footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Lato', sans-serif;
-    background: linear-gradient(to right, hsl(205.28deg 95.21% 32.75%), hsl(190.22deg 100% 35.69%));
-    text-align: center;
-}
-
-.logoFooter {
-    height: 10rem;
-    width: auto;
-    margin: 40px 0 20px;
-}
-
-.bi-facebook,
-.bi-instagram,
-.bi-linkedin {
-    color: var(--whiteGeneral);
-    font-size: 30px;
-    padding: 0 10px;
-}
-
-.containerFatherInfo {
-    margin: 20px 0;
-}
-
-
-.containInfoEmail,
-.containInfoLocation,
-.containInfoPhone {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px 0;
-}
-
-.bi-envelope,
-.bi-geo-alt-fill,
-.bi-telephone-fill {
-    color: var(--whiteGeneral);
-    font-size: 25px;
-}
-
-.textEmail,
-.textLocation,
-.textPhone {
-    color: var(--whiteGeneral);
-    padding-left: 15px;
-    font-size: 18px;
-    font-weight: 300;
-}
-
-.copyRight {
-    margin: 10px;
-    color: var(--whiteGeneral);
-    font-size: 10px;
-}
-
 @media screen and (min-width: 768px) {
 
-    h1 {
+    .titleH1 {
         font-size: 80px;
     }
 
@@ -436,44 +375,11 @@ footer {
         font-size: 60px;
     }
 
-    footer {
-        flex-direction: row;
-        justify-content: space-around;
-        padding: 40px 0;
-    }
-
-    .logoFooter {
-        margin: 0;
-    }
-
-    .bi-facebook,
-    .bi-instagram,
-    .bi-linkedin {
-        padding: 2px;
-    }
-
-    .containerFatherInfo {
-        margin: 0;
-    }
-
-    .containerFatherInfo {
-        display: flex;
-        flex-direction: column;
-        align-items: start;
-    }
-
-    .copyRight {
-        width: 70px;
-        margin: 10px;
-        color: var(--whiteGeneral);
-        font-size: 10px;
-        text-align: center;
-        font-weight: 300;
-    }
-
-}
-
 @media screen and (min-width: 1024px) {
+
+    .titleH1 {
+        font-size: 100px;
+    }
 
     .sectionOne {
         display: flex;
@@ -499,7 +405,7 @@ footer {
         align-items: center;
     }
 
-    h1 {
+    .titleH1 {
         padding: 9px 30px 0;
     }
 
@@ -541,4 +447,5 @@ footer {
         font-size: 100px;
     }
 
+}
 }

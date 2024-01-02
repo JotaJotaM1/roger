@@ -7,8 +7,9 @@
     <title>Puff Cleaning</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/book_now.css">
-    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
 </head>
 
 <body>
@@ -16,13 +17,13 @@
 
         <!-- Here we will find the header with the dropdown menu. -->
 
-        <header>
+        <header class="menuNav">
             <div class="fatherHeader">
                 <img class="LogoHeader" src="./img/PUFF2.webp" alt="LogoHeader">
             </div>
-            <button class="openMenu" id="open"><i class="bi bi-list"></i></button>
+            <button class="openMenu" id="open"><i class="bi-list"></i></button>
             <nav class="nav" id="nav">
-                <button class="closeMenu" id="close"><i class="bi bi-x"></i></button>
+                <button class="closeMenu" id="close"><i class="bi-x"></i></button>
                 <ul class="navList">
                     <li><a href="#">HOME</a></li>
                     <li><a href="#">BOOK NOW</a></li>
@@ -32,106 +33,17 @@
             </nav>
         </header>
 
-        <!-- First section h1, reference images and form -->
-
-        <section class="sectionOne">
-            <div class="flexContainer">
-                <div class="containFatherH1">
-                    <h1>WELCOME<br><span class="spanOne"> TO PUFF CLEANING</span></h1>
-                    <p class="textH1">ALASKA</p>
-                </div>
-            </div>
-            <div class="containFatherForm">
-                <form class="formLogin">
-                    <p class="LoginForm">LOGIN</p>
-
-                    <label class="labelForm" for="e-mail">User name or E-mail:</label>
-                    <input class="inputForm" type="email" id="e-mail" name="e-mail" required>
-
-                    <label class="labelForm" for="password">Password:</label>
-                    <input class="inputForm" type="password" id="password" name="password" required>
-
-                    <div class="containerRemember">
-                        <label class="labelForm" for="remember">Remember me</label>
-                        <input type="checkbox" id="remember" name="remember">
-                    </div>
-
-                    <div class="containerButtonLogin">
-
-                        <button class="buttonLogin">LOGIN</button>
-                        <a class="register" href="#" target="_blank">
-                            <p>Register</p>
-                        </a>
-
-                    </div>
-                </form>
-            </div>
+        <section>
+            
         </section>
 
-        <!-- second section h2, step by step images -->
-
-        <section class="contaFatheSectionTwo">
-            <div class="containerH2">
-                <h2 class="titleH2">CLICK&CLEAN</h2>
-                <P class="textH2">PROCESS TO ACQUIRE YOUR SERVICE</P>
-            </div>
-            <div class="containerDescription">
-                <div class="containImgDescrip">
-                    <img class="imgStepbyStep" src="./img/PASO1-8.png" alt="imgStepbyStep">
-                    <img class="imgStepbyStep" src="./img/PASO2-8.png" alt="imgStepbyStep">
-                    <img class="imgStepbyStep" src="./img/PASO3-8.png" alt="imgStepbyStep">
-                </div>
-                <div class="containListFather">
-                    <ol class="containList">
-                        <ul class="StepbyStep"><span class="numberDescription">1.</span> CHOSE SERVICE</ul>
-                        <ul class="StepbyStep"><span class="numberDescription">2.</span> RESERVATION</ul>
-                        <ul class="StepbyStep"><span class="numberDescription">3.</span> PUFF CLEAN</ul>
-                    </ol>
-                </div>
-            </div>
-            <div class="containButtonBook">
-                <button class="buttonBook">BOOK NOW</button>
-            </div>
-        </section>
-
-        <!-- third section -->
-
-        <section class="contaFatheSectionThree">
-            <div class="containFatherThree">
-                <img class="Man_sorpraise" src="./img/Man_sorpraise.png" alt="Man_sorpraise">
-                <p class="textManSorpraise">OUR PROFESSIONAL</p>
-                <P class="textManSorpraiseTwo">SERVICES</P>
-                <p class="textManSorpraiseThree">FORM HOME AND BUSSINESSES</p>
-            </div>
-            <div class="containerFatherManSorprise">
-
-                <ol class="containeListManSorprise">
-                    <ul class="listMainSorpraise">1. Home Line</ul>
-                    <ul class="listMainSorpraise">2. Comercial Line</ul>
-                    <ul class="listMainSorpraise">3. Accommodarion / Airbnb</ul>
-                    <ul class="listMainSorpraise">4. Industrial Line</ul>
-                    <ul class="listMainSorpraise">5. Repair Line</ul>
-                </ol>
-
-                <button class="buttonGetAfree">GET A FREE STIMATE</button>
-
-            </div>
-
-        </section>
-
-        <!-- Fourth section, comments -->
-
-        <section class="contaFatheSectionFour">
-            <div class="containSectionFour">
-                <h3 class="tittleComments">HEAR FROM</h3>
-                <P class="textComments">OUR CLIENTES</P>
-            </div>
-            <div class="commet">
-
-            </div>
-        </section>
+        
     </main>
+    
 </body>
+
+<!-- Footer-->
+
 <footer>
     <div>
         <img class="logoFooter" src="./img/Logo_Blanco_Vertical.png" alt="logo">
@@ -141,7 +53,7 @@
         <a href="https://www.instagram.com/puffcleaning" target="_blank"><i class="bi-instagram"></i></a>
         <a href="https://www.linkedin.com/company/puffcleaning" target="_blank"><i class="bi-linkedin"></i></a>
     </div>
-    
+
     <div class="containerFatherInfo">
         <div class="containInfoEmail">
             <i class="bi-envelope"></i>
@@ -161,5 +73,4 @@
     </div>
 </footer>
 <script src="script.js"></script>
-<script src="https://widget.trustmary.com/1ldiqdB9w"></script>
 </html>

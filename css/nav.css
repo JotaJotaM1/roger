@@ -1,4 +1,22 @@
-header {
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+
+/* Styles for general elements */
+
+* {
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+:root {
+    --textGold: #dd9219;
+    --textBlueBold: #0160A3;
+    --backgroundBlue: #31A2BC;
+    --whiteGeneral: white;
+}
+
+.menuNav{
     width: 100%;
     padding: 0 1rem;
     display: flex;
@@ -91,7 +109,7 @@ header {
   }
 
   @media screen and (min-width: 798px){
-    header{
+    .menuNav{
         padding: 1rem 4rem;
     }
   }

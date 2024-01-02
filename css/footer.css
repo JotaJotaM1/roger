@@ -1,0 +1,115 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+
+/* Styles for general elements */
+* {
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+:root {
+    --textGold: #dd9219;
+    --textBlueBold: #0160A3;
+    --backgroundBlue: #31A2BC;
+    --whiteGeneral: white;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    background: linear-gradient(to right, hsl(205.28deg 95.21% 32.75%), hsl(190.22deg 100% 35.69%));
+    text-align: center;
+}
+
+.logoFooter {
+    height: 10rem;
+    width: auto;
+    margin: 40px 0 20px;
+}
+
+.bi-facebook,
+.bi-instagram,
+.bi-linkedin {
+    color: var(--whiteGeneral);
+    font-size: 30px;
+    padding: 0 10px;
+}
+
+.containerFatherInfo {
+    margin: 20px 0;
+}
+
+
+.containInfoEmail,
+.containInfoLocation,
+.containInfoPhone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.bi-envelope,
+.bi-geo-alt-fill,
+.bi-telephone-fill {
+    color: var(--whiteGeneral);
+    font-size: 25px;
+}
+
+.textEmail,
+.textLocation,
+.textPhone {
+    color: var(--whiteGeneral);
+    padding-left: 15px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.copyRight {
+    margin: 10px;
+    color: var(--whiteGeneral);
+    font-size: 10px;
+}
+
+@media screen and (min-width: 768px) {
+
+    footer {
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 40px 0;
+    }
+
+    .logoFooter {
+        margin: 0;
+    }
+
+    .bi-facebook,
+    .bi-instagram,
+    .bi-linkedin {
+        padding: 2px;
+    }
+
+    .containerFatherInfo {
+        margin: 0;
+    }
+
+    .containerFatherInfo {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .copyRight {
+        width: 70px;
+        margin: 10px;
+        color: var(--whiteGeneral);
+        font-size: 10px;
+        text-align: center;
+        font-weight: 300;
+    }
+    
+}
