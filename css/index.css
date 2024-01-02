@@ -134,6 +134,14 @@ h1,
 
 /* Second section: h2, step-by-step images */
 
+.contaFatheSectionTwo{
+    background-image: url(../img/medio_circulo_.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
 .containerH2 {
     text-align: center;
     padding: 4rem 0;
@@ -199,7 +207,7 @@ h1,
     padding: 60px 0;
 }
 
-/* third section  Man_Sorprise*/
+/* third section cardServices */
 
 
 .containerFatherCard {
@@ -210,12 +218,12 @@ h1,
 }
 
 .contaFatherSectionThree {
-    background: linear-gradient(to left, hsl(205.28deg 95.21% 32.75%), hsl(190.22deg 100% 35.69%));
+    background: linear-gradient(to left, hsl(205.28deg 95.21% 32.75%), hsl(190.22deg 100% 35.69%)), url(../img/circulo_grande.png);
 }
+
 
 .containFatherThree {
     text-align: center;
-    margin: 60px 0 40px;
     color: var(--whiteGeneral);
     font-weight: 600;
 
@@ -247,6 +255,7 @@ h1,
     box-shadow: 0px 0px 12px -5px black;
     width: 22rem;
 }
+
 .cardImgH3 {
     display: flex;
     justify-content: center;
@@ -269,22 +278,24 @@ h1,
     text-align: left;
     color: var(--textBlueBold);
 }
-.containFatherButtonGet{
+
+.containFatherButtonGet {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.containButtoGet{
+
+.containButtoGet {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .buttonGetAfree {
-margin: 40px 0 20px;
-height: 2.5rem;
-width: 10rem;
+    margin: 40px 0 20px;
+    height: 2.5rem;
+    width: 10rem;
 }
 
 /* Fourth section, comments */
@@ -399,6 +410,7 @@ footer {
         height: 190px;
         width: 190px;
     }
+
     .StepbyStep {
         font-size: 25px;
     }
