@@ -15,12 +15,37 @@
     --whiteGeneral: white;
 }
 
-/* First section: h1, reference image, and form */
+
+
+.btnGQ {
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--textGold);
+    color: var(--whiteGeneral);
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0 1px 10px rgba(0, 0, 0,0.3);
+    z-index: 100;
+}
+
+.btnGQ:hover{
+    text-decoration: none ;
+    color:var(--whiteGeneral);
+    background-color: var(--textBlueBold);
+}
 
 main{
     margin-top: 80px;
+
+    
 }
 
+/* First section: h1, reference image, and form */
 .sectionOne {
     background: linear-gradient(to right, hsl(205.28deg 95.21% 32.75%), hsl(190.22deg 100% 35.69%));
     text-align: center;
