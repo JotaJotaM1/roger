@@ -5,119 +5,137 @@
 /* Styles for general elements */
 
 * {
-    box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
 }
 
 
 :root {
-    --textGold: #dd9219;
-    --textBlueBold: #0160A3;
-    --backgroundBlue: #31A2BC;
-    --whiteGeneral: white;
+  --textGold: #dd9219;
+  --textBlueBold: #0160A3;
+  --backgroundBlue: #31A2BC;
+  --whiteGeneral: white;
 }
 
-.menuNav{
-    width: 100%;
-    padding: 0 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color:hsl(240deg 2.86% 93.14%);
-    position: fixed;
-    top: 0;
-    z-index: 1000;
+.menuNav {
+  width: 100%;
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: hsl(240deg 2.86% 93.14%);
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+
+.LogoHeader {
+  height: 80px;
+}
+
+.fatherAvatarHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navList {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navList li a {
+  text-decoration: none;
+  color: var(--textGold);
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.navList li:hover a {
+  color: var(--textBlueBold)
+}
+
+.openMenu,
+.closeMenu {
+  display: none;
+}
+
+.containH1Avatar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bi-list,
+.bi-x {
+  font-size: 35px;
+  color: #d58a00;
+}
+
+.buttonGQNav {
+  background-color: var(--textGold);
+  color: var(--whiteGeneral);
+  border: none;
+  border-radius: 0.3rem;
+  font-size: 18px;
+  font-weight: 600;
+  width: 8rem;
+  height: 2rem;
+  cursor: pointer;
+}
+
+.buttonGQNav:hover {
+  color: var(--textBlueBold);
+}
+
+@media screen and (max-width: 798px) {
+
+  .menuNav {
+    padding: 0 0;
   }
 
-  .LogoHeader{
-    height: 80px;
-}
-  
-  .fatherAvatarHeader {
+  .openMenu,
+  .closeMenu {
+    display: block;
+    border: 0;
+    font-size: 1.5rem;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  .nav {
+    opacity: 0;
+    visibility: hidden;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    align-items: end;
     gap: 1rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 2rem;
+    background-color: hsl(240deg 2.86% 93.14%);
+  }
+
+  .nav.visible {
+    opacity: 1;
+    visibility: visible;
+    transition: 0.5s;
   }
 
   .navList {
-    list-style-type: none;
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-  }
-  
-  .navList li a {
-    text-decoration: none;
-    color:var(--textGold);
-    font-size: 20px;
-    font-weight: 400;
-}
-  
-  .navList li:hover a {
-    color:var(--textBlueBold)
-  }
-  
-  .openMenu,
-  .closeMenu {
-    display: none;
-  }
-  
-  .containH1Avatar {
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    align-items: end;
+    gap: 2rem;
   }
-  .bi-list, .bi-x{
-    font-size: 35px;
-    color: #d58a00;
-  }
+}
 
-  @media screen and (max-width: 798px) {
-    
-    .menuNav{
-      padding: 0 0;
-    }
-
-    .openMenu,
-    .closeMenu {
-      display: block;
-      border: 0;
-      font-size: 1.5rem;
-      background-color:transparent;
-      cursor: pointer;
-    }
-  
-    .nav {
-      opacity: 0;
-      visibility: hidden;
-      display: flex;
-      flex-direction: column;
-      align-items: end;
-      gap: 1rem;
-      position: absolute;
-      top: 0;
-      right: 0;
-      padding: 2rem;
-      background-color:hsl(240deg 2.86% 93.14%);
-    }
-  
-    .nav.visible {
-      opacity: 1;
-      visibility: visible;
-      transition: 0.5s;
-    }
-  
-    .navList {
-      flex-direction: column;
-      align-items: end;
-      gap: 2rem;
-    }
+@media screen and (min-width: 798px) {
+  .menuNav {
+    padding: 0rem 4rem;
   }
-
-  @media screen and (min-width: 798px){
-    .menuNav{
-        padding: 0rem 4rem;
-    }
-  }
+}

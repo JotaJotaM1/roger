@@ -17,9 +17,11 @@
 }
 .containFooter{
     font-family: 'Lato', sans-serif;
+    padding: 20px 0;
 }
 
 footer {
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
