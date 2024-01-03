@@ -74,6 +74,10 @@
   }
 
   @media screen and (max-width: 798px) {
+    
+    .menuNav{
+      padding: 0 0;
+    }
 
     .openMenu,
     .closeMenu {
@@ -113,6 +117,6 @@
 
   @media screen and (min-width: 798px){
     .menuNav{
-        padding: 1rem 4rem;
+        padding: 0rem 4rem;
     }
   }
