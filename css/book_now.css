@@ -15,6 +15,9 @@
     --backgroundBlue: #31A2BC;
     --whiteGeneral: white;
 }
+main{
+    margin-top: 80px;
+}
 
 .containFatheBN,
 .containPrinBN,

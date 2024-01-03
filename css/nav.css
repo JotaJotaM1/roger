@@ -23,6 +23,9 @@
     align-items: center;
     justify-content: space-between;
     background-color:hsl(240deg 2.86% 93.14%);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
   }
 
   .LogoHeader{
