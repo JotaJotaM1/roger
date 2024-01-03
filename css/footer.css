@@ -3,10 +3,10 @@
 
 
 /* Styles for general elements */
-*{
+* {
     font-family: 'Lato', sans-serif;
     box-sizing: border-box;
-    
+
 }
 
 :root {
@@ -14,6 +14,9 @@
     --textBlueBold: #0160A3;
     --backgroundBlue: #31A2BC;
     --whiteGeneral: white;
+}
+.containFooter{
+    font-family: 'Lato', sans-serif;
 }
 
 footer {
@@ -53,7 +56,8 @@ footer {
     margin: 10px 0;
 }
 
-.mailto-link, .tel-link{
+.mailto-link,
+.tel-link {
     text-decoration: none;
 }
 
@@ -103,8 +107,7 @@ footer {
     }
 
     .copyRight {
-        width: 70px;
-        margin: 10px;
+        width: 103px;
         color: var(--whiteGeneral);
         font-size: 10px;
         text-align: center;
@@ -113,10 +116,11 @@ footer {
 
 }
 
-@media screen and (min-width: 1024px){
-    footer{
+@media screen and (min-width: 1024px) {
+    footer {
         flex-direction: row;
         justify-content: space-around;
-        padding: 60px 0;
     }
+
+
 }
