@@ -17,27 +17,7 @@
 
 
 
-.btnGQ {
-    position: fixed;
-    width: 55px;
-    height: 55px;
-    line-height: 55px;
-    bottom: 20px;
-    right: 20px;
-    background-color: var(--textGold);
-    color: var(--whiteGeneral);
-    border-radius: 50%;
-    text-align: center;
-    font-size: 30px;
-    box-shadow: 0 1px 10px rgba(0, 0, 0,0.3);
-    z-index: 100;
-}
 
-.btnGQ:hover{
-    text-decoration: none ;
-    color:var(--whiteGeneral);
-    background-color: var(--textBlueBold);
-}
 
 main{
     margin-top: 80px;
