@@ -53,6 +53,10 @@ footer {
     margin: 10px 0;
 }
 
+.mailto-link, .tel-link{
+    text-decoration: none;
+}
+
 .bi-envelope,
 .bi-geo-alt-fill,
 .bi-telephone-fill {
@@ -70,7 +74,7 @@ footer {
 }
 
 .copyRight {
-    margin: 10px;
+    padding: 10px;
     color: var(--whiteGeneral);
     font-size: 10px;
 }
