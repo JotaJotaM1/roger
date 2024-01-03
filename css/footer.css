@@ -94,13 +94,10 @@ footer {
     }
 
     .containerFatherInfo {
-        margin: 0;
-    }
-
-    .containerFatherInfo {
         display: flex;
         flex-direction: column;
         align-items: start;
+        margin: 0;
     }
 
     .copyRight {
@@ -111,5 +108,5 @@ footer {
         text-align: center;
         font-weight: 300;
     }
-    
+
 }

@@ -43,9 +43,9 @@
 .textSectionTwo {
     font-size: 65px;
     color: white;
-    font-weight: 600;
-    line-height: 0.5;
-    padding: 80px 30px 0;
+    font-weight: 800;
+    line-height: 0.9;
+    padding-top: 60px;
 }
 
 .call-woman {
@@ -214,6 +214,8 @@
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
+    padding-bottom: 100px;
+    gap: 1rem;
 }
 
 .contaFatherSectionThree {
@@ -240,11 +242,6 @@
     font-size: 60px;
     line-height: 0.9;
     font-weight: 800;
-}
-
-.containerFatherCard {
-    padding-bottom: 100px;
-    gap: 1rem;
 }
 
 .cardContainer {
@@ -379,6 +376,7 @@
 
     .titleH1 {
         font-size: 100px;
+        padding: 9px 30px 0;
     }
 
     .sectionOne {
@@ -390,6 +388,7 @@
     .containFatherForm {
         margin: 0;
         width: 38%;
+        padding: 30px 0 26px;
     }
 
     .call-woman {
@@ -403,14 +402,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    }
-
-    .titleH1 {
-        padding: 9px 30px 0;
-    }
-
-    .containFatherForm {
-        padding: 30px 0 26px;
     }
 
     .containWomanCall {
