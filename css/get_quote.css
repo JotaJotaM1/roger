@@ -2,80 +2,142 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
 
 * {
-    box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
 }
 
 :root {
-    --textGold: #dd9219;
-    --textBlueBold: #0160A3;
-    --backgroundBlue: #31A2BC;
-    --whiteGeneral: white;
+  --textGold: #dd9219;
+  --textBlueBold: #0160A3;
+  --backgroundBlue: #31A2BC;
+  --whiteGeneral: white;
 }
 
 main {
-    margin-top: 80px;
+  margin-top: 80px;
+  background: linear-gradient(to right, hsl(205.28deg 95.21% 32.75%), hsl(190.22deg 100% 35.69%));
 }
-.containFatherForm{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(to right, hsl(205.28deg 95.21% 32.75%), hsl(190.22deg 100% 35.69%));
+
+.kitchen_pc,
+.wowmanGQ {
+  height: auto;
+  width: 100%;
+}
+
+.containTextGQ {
+  width: 317px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.titleH1GQ {
+  padding-top: 60px;
+  color: var(--whiteGeneral);
+  font-size: 29px;
+  font-weight: 900;
+}
+
+.textH1GQ {
+  margin: 20px 0;
+  text-align: center;
+  color: var(--whiteGeneral);
+}
+
+.containIconBN {
+  margin: 30px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.iconInfoBn {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin: 14px 0;
+}
+
+.emailBn,
+.addressBn,
+.phoneBn {
+  font-size: 35px;
+  color: var(--textGold);
+  padding-right: 10px;
+
+}
+
+.textIconBN {
+  font-size: 20px;
+  color: var(--whiteGeneral);
+
+}
+
+.containFatherForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .containForm {
-    display: flex;
-    flex-direction: column;
-    padding: 28px 13px;
-    border: 1px solid rgb(183, 183, 183);
-    margin: 40px 0;
-    border-radius: 0.5rem;
-    box-shadow: 0px 0px 6px 0px black;
-    background-color: var(--whiteGeneral);
-    color: var(--textBlueBold);
-  }
-  .labelForm{
-    margin: 5px 0;
-    font-weight: 500;
-    cursor: pointer;
-  }
-  
-  .inputForm, .selectService{
-    border: 1px solid rgb(190, 188, 188);
-    border-radius: 0.2rem;
-    height: 30px;
-    width: 340px;
-  }
-  #message {
-    height: 200px;
-  }
-  .selectService{
-    margin-bottom: 20px;
-  }
-  
-  .containButtos {
-    margin: 20px 40px;
-    display: flex;
-    justify-content: space-around;
-  }
-  
-  .buttonOneGQ,
-  .buttonTwoGQ {
-    height: 3rem;
-    width: 6rem;
-    background-color:var(--textGold);
-    border: none;
-    color: white;
-    font-size: 18px;
-    font-weight: 600;
-    border-radius: 0.4rem;
-    cursor: pointer;
-  }
-  .buttonOneGQ:hover,
-  .buttonTwoGQ:hover {
-    background-color: var(--textBlueBold);
-  }
-  .bi{
-  font-size: 25px; 
-  }
+  display: flex;
+  flex-direction: column;
+  padding: 28px 13px;
+  border: 1px solid rgb(183, 183, 183);
+  margin-bottom: 40px;
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 6px 0px black;
+  background-color: var(--whiteGeneral);
+  color: var(--textBlueBold);
+}
+
+.labelForm {
+  margin: 5px 0;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.inputForm,
+.selectService {
+  border: 1px solid rgb(190, 188, 188);
+  border-radius: 0.2rem;
+  height: 30px;
+  width: 340px;
+}
+
+#message {
+  height: 100px;
+}
+
+.selectService {
+  margin-bottom: 20px;
+}
+
+.containButtos {
+  margin: 0 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttonOneGQ,
+.buttonTwoGQ {
+  height: 3rem;
+  width: 6rem;
+  background-color: var(--textGold);
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 0.4rem;
+  cursor: pointer;
+}
+
+.buttonOneGQ:hover,
+.buttonTwoGQ:hover {
+  background-color: var(--textBlueBold);
+}
+
+.bi {
+  font-size: 25px;
+}

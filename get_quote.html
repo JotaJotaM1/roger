@@ -17,7 +17,7 @@
 
 <body>
     <div>
-        <a href="#" class="btnGQ"><i class="bi bi-calculator"></i></a>
+        <a href="get_quote.html" class="btnGQ"><i class="bi bi-calculator"></i></a>
     </div>
 
     <main>
@@ -33,51 +33,84 @@
                 <button class="closeMenu" id="close"><i class="bi-x"></i></button>
                 <ul class="navList">
                     <li><a href="index.html">HOME</a></li>
-                    <li><a href="book_now.html">BOOK NOW</a></li>
                     <li><a href="#">SERVICES</a></li>
                     <a href="get_quote.html"><button class="buttonGQNav">GET QUOTE !</button></a>
                 </ul>
             </nav>
         </header>
+
+
+        <!-- <div class="containerkitchenPC">
+            <img class="kitchen_pc" src="./img/kitchen_pc.webp" alt="kitchen_pc">
+        </div> -->
+        <div class="containTextGQ">
+            <h1 class="titleH1GQ">GET YOUR QUICK CLEANING QUOTE</h1>
+            <p class="textH1GQ">Discover a fair quote for an easy-to-click and clean space. Easily calculate the cost of your service and transform your environment with our expert cleaning services.</p>
+        </div>
+
+        <div class="containIconBN">
+            <div class="iconInfoBn">
+                <i class="phoneBn bi-telephone-inbound-fill"></i>
+                <a href="tel:+1 305 999 8545" class="tel-link">
+                    <p class="textIconBN">+1 305 999 8545</p>
+                </a>
+
+            </div>
+            <div class="iconInfoBn">
+                <i class="emailBn bi bi-envelope-at-fill"></i>
+                <a href="mailto:info@alaska.puffcleaning.com?subject=Book Now" class="mailto-link">
+                    <p class="textIconBN">info@alaska.puffcleaning.com</p>
+                </a>
+            </div>
+            <div class="iconInfoBn">
+                <i class="addressBn bi-geo-alt"></i>
+                <p class="textIconBN">1395 Alaska, suite 321</p>
+            </div>
+        </div>
+
+        <section class="sectionOneGQ">
+            <div class="containerWomanGQ">
+                <img class="wowmanGQ" src="/img/wonanGQ_pc.webp" alt="wowmanGQ">
+            </div>
+            
+            <div class="containerSectionForm">
+                <div class="containFatherForm">
+                    <form class="containForm" action="/procesar_formulario" method="post" enctype="multipart/form-data">
         
-        <section class="containerSectionForm">
-            <div class="containFatherForm">
-                <form class="containForm" action="/procesar_formulario" method="post" enctype="multipart/form-data">
+                        <label class="labelForm" for="name">Name:</label>
+                        <input class="inputForm" type="text" id="name" name="name" oninput="validateText(this)" required><br>
+        
+                        <label class="labelForm" for="phone">Phone:</label>
+                        <input class="inputForm" type="number" id="phone" name="phone" required><br>
+        
+                        <label class="labelForm" for="email">Email:</label>
+                        <input class="inputForm" type="email" id="email" name="email" required><br>
     
-                    <label class="labelForm" for="name">Name:</label>
-                    <input class="inputForm" type="text" id="name" name="name" oninput="validateText(this)" required><br>
+                        <label class="labelForm" for="selectService">Select Service:</label>
+                        <select class="selectService" id="selectService" name="selectService" required>
+                            <option disabled selected></option>
+                            <option value="Service1">Service 1</option>
+                            <option value="Service2">Service 2</option>
+                            <option value="Service3">Service 3</option>
+                        </select>
     
-                    <label class="labelForm" for="phone">Phone:</label>
-                    <input class="inputForm" type="number" id="phone" name="phone" required><br>
-    
-                    <label class="labelForm" for="email">Email:</label>
-                    <input class="inputForm" type="email" id="email" name="email" required><br>
-
-                    <label class="labelForm" for="selectService">Select Service:</label>
-                    <select class="selectService" id="selectService" name="selectService" required>
-                        <option disabled selected></option>
-                        <option value="Service1">Service 1</option>
-                        <option value="Service2">Service 2</option>
-                        <option value="Service3">Service 3</option>
-                    </select>
-
-                    <label class="labelForm" for="zipCode">Zip Code:</label>
-                    <input class="inputForm" type="number" id="zipCode" name="zipCode" required><br>
-                    
-    
-                    <label class="labelForm" class="message" for="message">Message:</label>
-                    <textarea class="inputForm" id="message" name="message" maxlength="1000"></textarea><br>
-    
-                    <div class="containButtos">
-                        <input class="buttonOneGQ" type="submit" value="SUBMIT" onclick="">
-                        <input class="buttonTwoGQ" type="reset" value="RESET">
-                    </div>
-    
-                </form>
+                        <label class="labelForm" for="zipCode">Zip Code:</label>
+                        <input class="inputForm" type="number" id="zipCode" name="zipCode" required><br>
+                        
+        
+                        <label class="labelForm" class="message" for="message">Message:</label>
+                        <textarea class="inputForm" id="message" name="message" maxlength="1000"></textarea><br>
+        
+                        <div class="containButtos">
+                            <input class="buttonOneGQ" type="submit" value="SUBMIT" onclick="">
+                            <input class="buttonTwoGQ" type="reset" value="RESET">
+                        </div>
+                    </form>
+                </div>
             </div>
 
         </section>
-
+       
     </main>
 </body>
 
