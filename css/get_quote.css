@@ -16,3 +16,24 @@
 main {
     margin-top: 80px;
 }
+
+.containerSectionForm,.formGQ{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.containerForm{
+    width: 400px;
+}
+
+.inputGQ{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    padding-top: 20px;
+    margin-top: 10px;
+
+}

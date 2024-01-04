@@ -16,6 +16,9 @@
   --backgroundBlue: #31A2BC;
   --whiteGeneral: white;
 }
+main {
+  margin-top: 80px;
+}
 
 .menuNav {
   width: 100%;
@@ -83,7 +86,7 @@
   border-radius: 0.3rem;
   font-size: 18px;
   font-weight: 600;
-  width: 8rem;
+  width: 9rem;
   height: 2rem;
   cursor: pointer;
 }
