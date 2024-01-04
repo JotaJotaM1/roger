@@ -33,7 +33,7 @@ main {
 .titleH1GQ {
   padding-top: 60px;
   color: var(--whiteGeneral);
-  font-size: 29px;
+  font-size: 36px;
   font-weight: 900;
 }
 
@@ -72,6 +72,15 @@ main {
   color: var(--whiteGeneral);
 
 }
+.womanGP_cel{
+  height: auto;
+  width: 100%;
+
+}
+.womanGP_pc{
+  display: none;
+}
+
 
 .containFatherForm {
   display: flex;
@@ -85,7 +94,6 @@ main {
   flex-direction: column;
   padding: 28px 13px;
   border: 1px solid rgb(183, 183, 183);
-  margin-bottom: 40px;
   border-radius: 0.5rem;
   box-shadow: 0px 0px 6px 0px black;
   background-color: var(--whiteGeneral);
@@ -141,3 +149,5 @@ main {
 .bi {
   font-size: 25px;
 }
+
+
