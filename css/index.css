@@ -22,8 +22,11 @@ main {
 
 /* First section: h1, reference image, and form */
 .sectionOne {
-    background: linear-gradient(to right, hsl(205.28deg 95.21% 32.75%), hsl(190.22deg 100% 35.69%));
-    text-align: center;
+background-image: url(../img/ALASKA.webp);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+text-align: center;
 }
 
 .titleH1 {
