@@ -16,24 +16,66 @@
 main {
     margin-top: 80px;
 }
-
-.containerSectionForm,.formGQ{
+.containFatherForm{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-.containerForm{
-    width: 400px;
+    background: linear-gradient(to right, hsl(205.28deg 95.21% 32.75%), hsl(190.22deg 100% 35.69%));
 }
 
-.inputGQ{
+.containForm {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 350px;
-    padding-top: 20px;
-    margin-top: 10px;
-
-}
+    padding: 28px 13px;
+    border: 1px solid rgb(183, 183, 183);
+    margin: 40px 0;
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 6px 0px black;
+    background-color: var(--whiteGeneral);
+    color: var(--textBlueBold);
+  }
+  .labelForm{
+    margin: 5px 0;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .inputForm, .selectService{
+    border: 1px solid rgb(190, 188, 188);
+    border-radius: 0.2rem;
+    height: 30px;
+    width: 340px;
+  }
+  #message {
+    height: 200px;
+  }
+  .selectService{
+    margin-bottom: 20px;
+  }
+  
+  .containButtos {
+    margin: 20px 40px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .buttonOneGQ,
+  .buttonTwoGQ {
+    height: 3rem;
+    width: 6rem;
+    background-color:var(--textGold);
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 0.4rem;
+    cursor: pointer;
+  }
+  .buttonOneGQ:hover,
+  .buttonTwoGQ:hover {
+    background-color: var(--textBlueBold);
+  }
+  .bi{
+  font-size: 25px; 
+  }

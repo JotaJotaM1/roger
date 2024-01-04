@@ -41,47 +41,40 @@
         </header>
         
         <section class="containerSectionForm">
-            <div class="containerForm">
-                <form class="formGQ">
-                    <div class="containInputLabelGQ">
-                        <label for="name"></label>
-                        <input class="inputGQ" type="text" id="name" name="name" placeholder="Name" required>
-                    </div>
-            
-                    <div class="containInputLabelGQ">
-                        <label for="phone"></label>
-                        <input class="inputGQ" type="tel" id="phone" name="phone" placeholder="Phone" required>
-                    </div>
-            
-                    <div class="containInputLabelGQ">
-                        <label for="service-type"></label>
-                        <select class="inputGQ" id="service-type" name="service-type" aria-placeholder="Service Type" required>
-                            <option value="cleaning"></option>
-                            <option value="maintenance">Maintenance</option>
-                            <option value="other">Other</option>
-                        </select>
-                    </div>
-            
-                    <div class="containInputLabelGQ">
-                        <label for="message"></label>
-                        <textarea class="inputGQ" id="message" name="message" rows="4" placeholder="Message" required></textarea>
-                    </div>
-            
-                    <div class="containInputLabelGQ">
-                        <label for="zip-code"></label>
-                        <input class="inputGQ" type="number" id="zip-code" name="zip-code" required>
-                    </div>
-            
-                    <div class="containInputLabelGQ">
-                        <label for="email"></label>
-                        <input class="inputGQ" type="email" id="email" name="email" placeholder="Email" required>
-                    </div>
-            
-                    <button type="submit">Submit</button>
-                </form>
+            <div class="containFatherForm">
+                <form class="containForm" action="/procesar_formulario" method="post" enctype="multipart/form-data">
+    
+                    <label class="labelForm" for="name">Name:</label>
+                    <input class="inputForm" type="text" id="name" name="name" oninput="validateText(this)" required><br>
+    
+                    <label class="labelForm" for="phone">Phone:</label>
+                    <input class="inputForm" type="number" id="phone" name="phone" required><br>
+    
+                    <label class="labelForm" for="email">Email:</label>
+                    <input class="inputForm" type="email" id="email" name="email" required><br>
 
+                    <label class="labelForm" for="selectService">Select Service:</label>
+                    <select class="selectService" id="selectService" name="selectService" required>
+                        <option disabled selected></option>
+                        <option value="Service1">Service 1</option>
+                        <option value="Service2">Service 2</option>
+                        <option value="Service3">Service 3</option>
+                    </select>
+
+                    <label class="labelForm" for="zipCode">Zip Code:</label>
+                    <input class="inputForm" type="number" id="zipCode" name="zipCode" required><br>
+                    
+    
+                    <label class="labelForm" class="message" for="message">Message:</label>
+                    <textarea class="inputForm" id="message" name="message" maxlength="1000"></textarea><br>
+    
+                    <div class="containButtos">
+                        <input class="buttonOneGQ" type="submit" value="SUBMIT" onclick="">
+                        <input class="buttonTwoGQ" type="reset" value="RESET">
+                    </div>
+    
+                </form>
             </div>
-            
 
         </section>
 
