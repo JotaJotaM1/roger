@@ -32,6 +32,7 @@ text-align: center;
     font-size: 70px;
     font-weight: 600;
     line-height: 0.5;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     color: var(--whiteGeneral);
 }
 
@@ -47,6 +48,7 @@ text-align: center;
     font-size: 60px;
     font-weight: 600;
     padding: 15px 0 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .textSectionTwo {
@@ -55,6 +57,7 @@ text-align: center;
     font-weight: 800;
     line-height: 0.9;
     padding-top: 60px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .call-woman {
@@ -158,6 +161,7 @@ text-align: center;
 }
 
 .titleH2 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     font-size: 50px;
 }
 
@@ -245,6 +249,7 @@ text-align: center;
     font-size: 40px;
     font-weight: 600;
     padding: 15px 0 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .textSectionTwo {
@@ -318,6 +323,7 @@ text-align: center;
     color: var(--textBlueBold);
     font-weight: 600;
     text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 @media screen and (min-width: 768px) {
@@ -390,7 +396,7 @@ text-align: center;
 
         .sectionOne {
             display: flex;
-            justify-content: space-around;
+            justify-content: space-evenly;
             align-items: center;
         }
 
