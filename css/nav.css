@@ -95,7 +95,7 @@ main {
   color: var(--textBlueBold);
 }
 
-@media screen and (max-width: 798px) {
+@media screen and (max-width: 948px) {
 
   .menuNav {
     padding: 0 0;
