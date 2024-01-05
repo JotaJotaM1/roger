@@ -13,23 +13,35 @@
   --whiteGeneral: white;
 }
 
-.titleUS{
-  font-size: 40px;
-    color: var(--textBlueBold);
-    font-weight: 600;
-    text-align: center;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+.containH1Us {
+  padding-top: 40px;
 }
-.textUS{
+
+.titleUS {
+  padding: 0 12px;
+  font-size: 40px;
+  color: var(--textBlueBold);
+  font-weight: 600;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.textUS {
   padding: 15px;
   color: var(--textBlueBold);
   font-size: 20px;
   text-align: center;
 }
-.men_us_Cel{
+
+.men_us_Cel {
   height: auto;
   width: 100%;
 }
+
+.men_us_Pc {
+  display: none;
+}
+
 .containFatherFormUS {
   display: flex;
   flex-direction: column;
@@ -57,7 +69,8 @@
 }
 
 .inputFormUS,
-.selectServiceUS, .inputFormUSAttach {
+.selectServiceUS,
+.inputFormUSAttach {
   border: 1px solid rgb(190, 188, 188);
   border-radius: 0.2rem;
   height: 30px;
@@ -67,6 +80,7 @@
 .selectServiceUS {
   margin-bottom: 20px;
 }
+
 .custom-file-upload {
   display: inline-block;
   position: relative;
@@ -77,9 +91,11 @@
   overflow: hidden;
   margin-bottom: 40px;
 }
-.IconAtta{
+
+.IconAtta {
   font-size: 40px;
 }
+
 .containButtosUS {
   margin: 0 40px;
   display: flex;
@@ -104,4 +120,49 @@
   background-color: var(--textBlueBold);
 }
 
+@media screen and (min-width:768px) {
 
+  .titleUS {
+    padding: 0 27%;
+  }
+
+  .textUS {
+    padding: 15px 20%;
+  }
+
+  .containMenForm {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .containMenUS {
+    width: 300px;
+  }
+
+  .men_us_Cel {
+    display: none;
+  }
+
+  .men_us_Pc {
+    display: flex;
+    width: 115%;
+  }
+
+}
+
+@media screen and (min-width:1024px) {
+
+  .titleUS {
+    font-size: 70px;
+    padding: 0 31%;
+  }
+
+  .textUS {
+    font-size: 30px;
+    padding: 21px 27%;
+  }
+
+}

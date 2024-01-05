@@ -45,14 +45,14 @@ text-align: center;
 .textH1 {
     color: var(--textGold);
     text-decoration: underline 5px;
-    font-size: 60px;
+    font-size: 70px;
     font-weight: 600;
     padding: 15px 0 20px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .textSectionTwo {
-    font-size: 65px;
+    font-size:50px;
     color: white;
     font-weight: 800;
     line-height: 0.9;
@@ -452,6 +452,15 @@ text-align: center;
         .textSectionTwo {
             font-size: 100px;
         }
+
+        .containerFatherCard{
+            margin: 0 14%;
+        }
+        .textSectionThree{
+            padding: 28px 28%;
+        }
+
+        
 
     }
 }
