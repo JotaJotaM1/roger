@@ -15,6 +15,10 @@
     --whiteGeneral: white;
 }
 
+body {
+    background-color: #f3f3f3;
+}
+
 main {
     margin-top: 80px;
 }
@@ -24,24 +28,26 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #f3f3f3;
-}
-.men_cel_R {
-    height: auto;
-    width: 100%;
 }
 
-.men_pc_R{
-    display: none;
+.containImgRCel {
+    height: 304px;
+    width: 100%;
+    background-image: url(../img/men_cel_R.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
-.titleH1Re{
+
+.titleH1Re {
     font-size: 46px;
     color: var(--textGold);
     font-weight: 800;
     text-align: center;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);
 }
-.textH1Re{
+
+.textH1Re {
     text-align: center;
     font-size: 20px;
     padding: 30px 16px;
@@ -56,7 +62,7 @@ main {
     border-radius: 0.5rem;
     background-color: var(--whiteGeneral);
     color: var(--textBlueBold);
-    margin:0 3% 10px;
+    margin: 0 3% 10px;
 }
 
 .labelFormRe {
@@ -72,13 +78,14 @@ main {
     height: 30px;
 }
 
-.textAlreadry{
+.textAlreadry {
     color: var(--textBlueBold);
     text-align: center;
     padding: 10px 0 20px;
-    font-weight:600;
+    font-weight: 600;
 }
-.loginRe{
+
+.loginRe {
     color: var(--textGold);
 }
 
@@ -106,6 +113,43 @@ main {
     background-color: var(--textBlueBold);
 }
 
-@media screen and (min-windt: 768px){
+@media screen and (min-width: 768px) {
+
+    .containFatherFormRe {
+        flex-direction: row;
+        justify-content: end;
+        align-items: end;
+    }
+
+    .containImgRCel {
+        display: none;
+    }
+
+    .containImgRPc {
+        height: 466px;
+        width: 80%;
+        background: url(../img/PESTANA_REGISTRO_NEGRIT.png) no-repeat right / contain;
+    }
+
+    .containFormH1 {
+        padding: 20px;
+        width: 80%;
+    }
+
+    .containFormRe {
+        margin: 0;
+    }
+
+    .titleH1Re {
+        line-height: 1;
+        font-size: 42px;
+    }
+
+    .textH1Re {
+        padding: 11px 16px;
+    }
+
+}
+@media screen and (min-width: 1024px){
     
 }
