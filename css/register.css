@@ -7,6 +7,7 @@
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
 }
+
 :root {
     --textGold: #dd9219;
     --textBlueBold: #0160A3;
@@ -17,7 +18,94 @@
 main {
     margin-top: 80px;
 }
-.men_cel_R{
+
+.containFatherFormRe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f3f3;
+}
+.men_cel_R {
     height: auto;
     width: 100%;
+}
+
+.men_pc_R{
+    display: none;
+}
+.titleH1Re{
+    font-size: 43px;
+    color: var(--textGold);
+    font-weight: 800;
+    text-align: center;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);
+}
+.textH1Re{
+    text-align: center;
+    font-size: 20px;
+    padding: 15px 27px;
+    color: var(--textBlueBold);
+}
+
+.containFormRe {
+    display: flex;
+    flex-direction: column;
+    padding: 28px 13px;
+    box-shadow: 0px 0px 4px 0px black;
+    border-radius: 0.5rem;
+    background-color: var(--whiteGeneral);
+    color: var(--textBlueBold);
+    margin:0 1% 10px;
+}
+
+.labelFormRe {
+    color: var(--textBlueBold);
+    margin: 5px 0;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.inputFormRe {
+    border: 1px solid rgb(190, 188, 188);
+    border-radius: 0.2rem;
+    height: 30px;
+}
+
+.textAlreadry{
+    color: var(--textBlueBold);
+    text-align: center;
+    padding: 10px 0 20px;
+    font-weight:600;
+}
+.loginRe{
+    color: var(--textGold);
+}
+
+.containButtosRe {
+    margin: 0 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttonOneRe,
+.buttonTwoRe {
+    height: 3rem;
+    width: 6rem;
+    background-color: var(--textGold);
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 0.4rem;
+    cursor: pointer;
+}
+
+.buttonOneRe:hover,
+.buttonTwoRe:hover {
+    background-color: var(--textBlueBold);
+}
+
+@media screen and (min-windt: 768px){
+    
 }

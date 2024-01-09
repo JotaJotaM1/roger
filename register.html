@@ -47,9 +47,36 @@
 
         <!-- Section One Form register -->
 
-        <section class="containerSectioneR">
+        <section class="containFatherFormRe">
             <div class="containImgR">
                 <img class="men_cel_R" src="./img/men_cel_R.webp" alt="men_cel_R">
+                <img class="men_pc_R" src="/img/men_pc_R.webp" alt="men_pc_R">
+            </div>
+            <div class="containFormH1">
+                <div>
+                    <h1 class="titleH1Re">Join for Easy Cleaning Services!</h1>
+                    <p class="textH1Re">Simplify your life—create an account for hassle-free cleaning services. Sign up now!</p>
+                </div>
+                <div>
+                    <form class="containFormRe" action="/procesar_formulario" method="post"
+                        enctype="multipart/form-data">
+
+                        <label class="labelFormRe" for="name">Name:</label>
+                        <input class="inputFormRe" type="text" id="name" name="name" oninput="validateText(this)" required><br>
+
+                        <label class="labelFormRe" for="lastname">Last Name:</label>
+                        <input class="inputFormRe" type="text" id="lastname" name="lastname" oninput="validateText(this)" required><br>
+
+                        <label class="labelFormRe" for="email">Email:</label>
+                        <input class="inputFormRe" type="email" id="email" name="email" required><br>
+                        <p class="textAlreadry">Already a member? <a href="index.html" class="loginRe">Login</a></p>
+                        <div class="containButtosRe">
+                            <input class="buttonOneRe" type="submit" value="REGISTER" onclick="">
+                        </div>
+                    </form>
+
+                </div>
+
             </div>
 
         </section>
