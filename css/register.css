@@ -15,12 +15,10 @@
     --whiteGeneral: white;
 }
 
-body {
-    background-color: #f3f3f3;
-}
-
 main {
     margin-top: 80px;
+    background-color: #f3f3f3;
+    
 }
 
 .containFatherFormRe {
@@ -36,11 +34,11 @@ main {
     background-image: url(../img/men_cel_R.webp);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
 }
 
 .titleH1Re {
-    font-size: 46px;
+    font-size: 44px;
     color: var(--textGold);
     font-weight: 800;
     text-align: center;
@@ -150,6 +148,19 @@ main {
     }
 
 }
-@media screen and (min-width: 1024px){
-    
+
+@media screen and (min-width: 1024px) {
+
+    .containFatherFormRe {
+        justify-content: center;
+    }
+
+    .containImgRPc {
+        width: 400px;
+    }
+
+    .containFormH1 {
+        width: 400px;
+    }
+
 }
