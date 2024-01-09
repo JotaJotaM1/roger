@@ -56,7 +56,7 @@ main {
     border-radius: 0.5rem;
     background-color: var(--whiteGeneral);
     color: var(--textBlueBold);
-    margin:0 1% 10px;
+    margin:0 3% 10px;
 }
 
 .labelFormRe {
