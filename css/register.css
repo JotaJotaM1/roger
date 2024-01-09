@@ -93,10 +93,9 @@ main {
     justify-content: space-around;
 }
 
-.buttonOneRe,
-.buttonTwoRe {
+.buttonOneRe{
     height: 3rem;
-    width: 6.5rem;
+    width: 7rem;
     background-color: var(--textGold);
     border: none;
     color: white;
