@@ -44,7 +44,7 @@ main {
 .textH1Re{
     text-align: center;
     font-size: 20px;
-    padding: 15px 27px;
+    padding: 30px 16px;
     color: var(--textBlueBold);
 }
 
@@ -91,7 +91,7 @@ main {
 .buttonOneRe,
 .buttonTwoRe {
     height: 3rem;
-    width: 6rem;
+    width: 6.5rem;
     background-color: var(--textGold);
     border: none;
     color: white;
