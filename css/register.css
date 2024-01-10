@@ -17,8 +17,7 @@
 
 main {
     margin-top: 50px;
-    background-color: #f3f3f3;
-    
+
 }
 
 .containFatherFormRe {
@@ -93,7 +92,7 @@ main {
     justify-content: space-around;
 }
 
-.buttonOneRe{
+.buttonOneRe {
     height: 3rem;
     width: 7rem;
     background-color: var(--textGold);
@@ -116,6 +115,11 @@ main {
         flex-direction: row;
         justify-content: end;
         align-items: end;
+        background-image: url(../img/prueba.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:cover;
+
     }
 
     .containImgRCel {
@@ -140,6 +144,7 @@ main {
     .titleH1Re {
         line-height: 1;
         font-size: 42px;
+        padding-top: 40px;
     }
 
     .textH1Re {
