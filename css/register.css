@@ -115,11 +115,10 @@ main {
         flex-direction: row;
         justify-content: end;
         align-items: end;
-        background-image: url(../img/prueba.png);
+        background-image: url(../img/Mesa_de_trabajo_1.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size:cover;
-
     }
 
     .containImgRCel {
