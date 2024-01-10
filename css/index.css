@@ -7,6 +7,7 @@
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
 }
+
 :root {
     --textGold: #dd9219;
     --textBlueBold: #0160A3;
@@ -21,11 +22,11 @@ main {
 
 /* First section: h1, reference image, and form */
 .sectionOne {
-background-image: url(../img/ALASKA.webp);
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
-text-align: center;
+    background-image: url(../img/ALASKA.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
 }
 
 .titleH1 {
@@ -52,7 +53,7 @@ text-align: center;
 }
 
 .textSectionTwo {
-    font-size:50px;
+    font-size: 50px;
     color: white;
     font-weight: 800;
     line-height: 0.9;
@@ -453,14 +454,13 @@ text-align: center;
             font-size: 100px;
         }
 
-        .containerFatherCard{
+        .containerFatherCard {
             margin: 0 14%;
         }
-        .textSectionThree{
+
+        .textSectionThree {
             padding: 28px 28%;
         }
-
-        
 
     }
 }

@@ -20,10 +20,10 @@
 .titleUS {
   padding: 0 12px;
   font-size: 40px;
-  color: var(--textBlueBold);
-  font-weight: 600;
+  color: var(--textGold);
+  font-weight: 900;
   text-align: center;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
 .textUS {
@@ -35,7 +35,7 @@
 
 .men_us_Cel {
   height: auto;
-  width: 100%;
+  width: 90%;
 }
 
 .men_us_Pc {
@@ -53,7 +53,7 @@
   display: flex;
   flex-direction: column;
   padding: 28px 13px;
-  box-shadow: 0px 0px 6px 0px black;
+  box-shadow: 0px 0px 1px 0px black;
   border-radius: 0.5rem;
   background-color: var(--textBlueBold);
   color: var(--textBlueBold);
@@ -65,7 +65,6 @@
   margin: 5px 0;
   font-weight: 700;
   cursor: pointer;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .inputFormUS,
@@ -123,7 +122,8 @@
 @media screen and (min-width:768px) {
 
   .titleUS {
-    padding: 0 27%;
+    padding: 0 15%;
+    font-size: 50px;
   }
 
   .textUS {
@@ -135,7 +135,7 @@
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
-    align-items: center;
+    align-items: end;
   }
 
   .containMenUS {
@@ -163,6 +163,10 @@
   .textUS {
     font-size: 22px;
     padding: 21px 27%;
+  }
+
+  .men_us_Pc{
+    width: 142%;
   }
 
 }
