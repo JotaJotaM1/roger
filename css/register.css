@@ -18,6 +18,26 @@
 main {
     margin-top: 90px;
 }
+.containForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titleH1Re{
+    padding: 0 10px;
+    font-size: 40px;
+    color: var(--textGold);
+    font-weight: 900;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+.textH1Re{
+    padding: 15px;
+    color: var(--textBlueBold);
+    font-size: 20px;
+    text-align: center;
+}
 
 .containFatherFormRe {
     display: flex;
@@ -29,7 +49,7 @@ main {
 .containFormRe {
     display: flex;
     flex-direction: column;
-    padding: 28px 13px;
+    padding: 0 28px 13px;
     width: 380px;
 }
 
@@ -52,7 +72,9 @@ main {
     padding: 25px 0 25px 40px;
     width: 100%;
     margin-top: 20px;
+    color: var(--textBlueBold);
 }
+
 .inputFormRe:focus {
     outline-color: var(--textGold);
 }
