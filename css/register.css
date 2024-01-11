@@ -53,6 +53,9 @@ main {
     width: 100%;
     margin-top: 20px;
 }
+.inputFormRe:focus {
+    outline-color: var(--textGold);
+}
 
 .textAlreadry {
     color: var(--textBlueBold);

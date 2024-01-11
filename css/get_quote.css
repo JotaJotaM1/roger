@@ -115,6 +115,10 @@ main {
   width: 340px;
 }
 
+.inputForm:focus{
+  outline-color: var(--textGold);
+}
+
 #message {
   height: 100px;
 }
