@@ -16,63 +16,42 @@
 }
 
 main {
-    margin-top: 50px;
-
+    margin-top: 90px;
 }
 
 .containFatherFormRe {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-}
-
-.containImgRCel {
-    height: 304px;
-    width: 100%;
-    background-image: url(../img/men_cel_R.webp);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-}
-
-.titleH1Re {
-    font-size: 44px;
-    color: var(--textGold);
-    font-weight: 800;
-    text-align: center;
-    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);
-}
-
-.textH1Re {
-    text-align: center;
-    font-size: 20px;
-    padding: 30px 16px;
-    color: var(--textBlueBold);
+    align-items: center
 }
 
 .containFormRe {
     display: flex;
     flex-direction: column;
     padding: 28px 13px;
-    box-shadow: 0px 0px 4px 0px black;
-    border-radius: 0.5rem;
-    background-color: var(--whiteGeneral);
-    color: var(--textBlueBold);
-    margin: 0 3% 10px;
+    width: 380px;
 }
 
-.labelFormRe {
-    color: var(--textBlueBold);
-    margin: 5px 0;
-    font-weight: 700;
-    cursor: pointer;
+.containPrueba {
+    position: relative;
 }
 
+.bi-envelope-fill,
+.bi-lock-fill, 
+.bi-check-square-fill {
+    color: var(--textGold);
+    position: absolute;
+    top: calc(50%);
+    left: 15px;
+}
 .inputFormRe {
     border: 1px solid rgb(190, 188, 188);
-    border-radius: 0.2rem;
+    border-radius: 0.8rem;
     height: 30px;
+    padding: 25px 0 25px 40px;
+    width: 100%;
+    margin-top: 20px;
 }
 
 .textAlreadry {
@@ -111,43 +90,8 @@ main {
 
 @media screen and (min-width: 768px) {
 
-    .containFatherFormRe {
-        flex-direction: row;
-        justify-content: end;
-        align-items: end;
-        background-image: url(../img/Mesa_de_trabajo_1.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size:cover;
-    }
-
-    .containImgRCel {
-        display: none;
-    }
-
-    .containImgRPc {
-        height: 466px;
-        width: 80%;
-        background: url(../img/PESTANA_REGISTRO_NEGRIT.png) no-repeat right / contain;
-    }
-
-    .containFormH1 {
-        padding: 20px;
-        width: 80%;
-    }
-
     .containFormRe {
         margin: 0;
-    }
-
-    .titleH1Re {
-        line-height: 1;
-        font-size: 42px;
-        padding-top: 40px;
-    }
-
-    .textH1Re {
-        padding: 11px 16px;
     }
 
 }
@@ -156,10 +100,6 @@ main {
 
     .containFatherFormRe {
         justify-content: center;
-    }
-
-    .containImgRPc {
-        width: 400px;
     }
 
     .containFormH1 {

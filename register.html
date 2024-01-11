@@ -48,40 +48,42 @@
         <!-- Section One Form register -->
 
         <section class="containFatherFormRe">
-            <div class="containImgRCel"></div>
-            <div class="containImgRPc"></div>
-            <div class="containFormH1">
-                <div>
-                    <h1 class="titleH1Re">JOIN FOR EASY CLEANING SERVICES!</h1>
-                    <p class="textH1Re">Simplify your life—create an account for hassle-free cleaning services. Sign up
-                        now!</p>
-                </div>
-                <div>
-                    <form class="containFormRe" action="/procesar_formulario" method="post"
-                        enctype="multipart/form-data">
+            <div class="containForm">
+                <form class="containFormRe" action="/procesar_formulario" method="post" enctype="multipart/form-data"
+                    onsubmit="return validateForm()">
 
-                        <label class="labelFormRe" for="name">Name:</label>
-                        <input class="inputFormRe" type="text" id="name" name="name" oninput="validateText(this)"
-                            required><br>
+                    <div class="containPrueba">
+                        <i class="bi bi-envelope-fill"></i>
+                        <input class="inputFormRe" type="email" id="email" name="email" placeholder="Email"
+                            data-original-placeholder="Email" onfocus="clearPlaceholder(this)"
+                            onblur="restorePlaceholder(this)" required>
+                    </div>
 
-                        <label class="labelFormRe" for="lastname">Last Name:</label>
-                        <input class="inputFormRe" type="text" id="lastname" name="lastname"
-                            oninput="validateText(this)" required><br>
+                    <div class="containPrueba">
+                        <i class="bi bi-lock-fill"></i>
+                        <input class="inputFormRe" type="password" id="password" name="password" placeholder="Password"
+                            data-original-placeholder="Password" onfocus="clearPlaceholder(this)"
+                            onblur="restorePlaceholder(this)" required>
+                    </div>
 
-                        <label class="labelFormRe" for="email">Email:</label>
-                        <input class="inputFormRe" type="email" id="email" name="email" required><br>
-                        <p class="textAlreadry">Already a member? <a href="index.html" class="loginRe">Login</a></p>
-                        <div class="containButtosRe">
-                            <input class="buttonOneRe" type="submit" value="REGISTER" onclick="">
+                    <div class="containPrueba">
+                        <i class="bi bi-check-square-fill"></i>
+                        <input class="inputFormRe" type="password" id="confirmPassword" name="confirmPassword"
+                            placeholder="Confirm Password" data-original-placeholder="Confirm Password"
+                            oninput="validatePassword()" onfocus="clearPlaceholder(this)"
+                            onblur="restorePlaceholder(this)" required>
+                        <div>
+                            <span id="confirmError" class="error-message"></span>
                         </div>
-                    </form>
+                    </div>
 
-                </div>
-
+                    <p class="textAlreadry">Already a member? <a href="index.html" class="loginRe">Login</a></p>
+                    <div class="containButtosRe">
+                        <input class="buttonOneRe" type="submit" value="REGISTER">
+                    </div>
+                </form>
             </div>
-
         </section>
-
 
         <!-- Footer-->
 
