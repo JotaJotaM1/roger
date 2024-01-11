@@ -33,9 +33,14 @@
   text-align: center;
 }
 
-.men_us_Cel {
+.containMenUS{
+  display: flex;
+  justify-content: center;
+}
+
+.men_us_cel {
   height: auto;
-  width: 90%;
+  width: 350px;
 }
 
 .men_us_Pc {
@@ -141,19 +146,20 @@
     flex-direction: row-reverse;
     justify-content: center;
     align-items: end;
+    gap: 30px;
   }
 
   .containMenUS {
     width: 300px;
   }
 
-  .men_us_Cel {
+  .men_us_cel {
     display: none;
   }
 
   .men_us_Pc {
     display: flex;
-    width: 115%;
+    width: 121%;
   }
 
 }
@@ -172,6 +178,10 @@
 
   .men_us_Pc {
     width: 142%;
+  }
+
+  .containMenForm{
+    gap: 64px;
   }
 
 }
