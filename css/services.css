@@ -58,9 +58,11 @@ main {
     margin: 40px 0;
 }
 
-.containCardSe {
+.containFatherSe {
     display: grid;
     padding: 10px;
+    grid-template-columns: 1fr;
+    gap: 20px;
 }
 
 .cardGeneral,
@@ -69,7 +71,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    width: 100%;
 }
 
 .cardGeneral {
@@ -219,4 +221,154 @@ main {
     border-radius: 0.3rem;
     margin: 30px 0;
     font-size: 22px;
+}
+
+@media screen and (min-width: 768px) {
+
+    .containH1Se {
+        padding: 50px 0;
+    }
+
+    .titleCard {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .titleH1Se {
+        font-size: 130px;
+    }
+
+    .textH1Se {
+        font-size: 34px;
+    }
+
+    .cardGeneral {
+        margin-bottom: 0;
+    }
+
+    .containFatherSe {
+        gap: 0;
+        justify-content: center;
+        row-gap: 70px;
+        grid-template-columns: repeat(2, 350px);
+        flex-wrap: wrap;
+        margin-bottom: 70px;
+    }
+
+    .ImgBox {
+        width: 300px;
+        height: 300px;
+        border: 18px solid var(--textBlueBold);
+    }
+
+    .box4 {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+
+    .box8 {
+        grid-column: 1 / 2;
+        grid-row: 4 / 5;
+    }
+
+    .containFatherInPuff {
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 40px 0 80px
+    }
+
+    .textImgInPuff {
+        padding: 0;
+    }
+
+    .textWeHave {
+        padding: 40px 159px;
+    }
+
+    .containFatherPas {
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: end;
+    }
+
+    .containLet {
+        margin-top: 80px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .titleH1Se {
+        font-size: 190px;
+    }
+
+    .textH1Se {
+        font-size: 45px;
+    }
+
+    .containFatherSe {
+        grid-template-columns: repeat(2, 700px);
+    }
+
+    .ImgBox {
+        width: 390px;
+        height: 390px;
+    }
+
+    .textCard {
+        font-size: 34px;
+
+    }
+
+    .titleCard {
+        font-size: 40px;
+    }
+
+    .buttonGetSe {
+        height: 3.5rem;
+        width: 12rem;
+        font-size: 23px;
+    }
+
+    .containFatherInPuff {
+        margin: 40px 0 120px;
+    }
+
+    .titleInPuff {
+        font-size: 90px;
+    }
+
+    .imgInPuff {
+        height: 220px;
+    }
+
+    .textImgInPuff {
+        font-size: 30px;
+    }
+
+    .titleWeHave {
+        font-size: 90px;
+    }
+
+    .textWeHave {
+        font-size: 40px;
+    }
+    .imgPas{
+        width: 300px;
+    }
+    .textPas{
+        font-size: 35px;
+    }
+    .containLet{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .textLet{
+        font-size: 35px;
+        padding: 5% 0;
+    } 
+    .buttonLet{
+    height: 4rem;
+    width: 14rem;
+    }
+
 }
