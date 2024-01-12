@@ -110,10 +110,39 @@ main {
 }
 
 .titleInPuff {
-    padding: 0 10px;
+    padding: 60px 10px 20px;
     font-size: 40px;
     color: var(--textGold);
     font-weight: 900;
     text-align: center;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.containFatherInPuff,
+.containInPuff {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.containFatherInPuff {
+    margin-bottom: 40px;
+}
+
+.imgInPuff {
+    height: 160px;
+    width: auto;
+}
+
+.textImgInPuff {
+    background: linear-gradient(to right, #0460a4, #009cb9);
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+    font-weight: 600;
+    width: 150px;
+    text-align: center;
+
 }
