@@ -79,8 +79,8 @@ main {
 .ImgBox {
     border: 10px solid var(--textBlueBold);
     border-radius: 100%;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
 }
 
 .titleCard {
@@ -93,13 +93,13 @@ main {
 .textCard {
     text-align: center;
     padding: 10px 22px;
-    font-size: 17px;
-    color: gray;
+    font-size: 18px;
+    color: rgb(88, 88, 88);
     font-weight: 300;
 }
 
 .buttonGetSe {
-    height: 2rem;
+    height: 2.5rem;
     width: 10rem;
     font-weight: 600;
     color: var(--whiteGeneral);
@@ -110,7 +110,7 @@ main {
     font-size: 18px;
 }
 
-.titleInPuff{
+.titleInPuff {
     padding: 60px 10px 20px;
     font-size: 60px;
     color: var(--textGold);
@@ -141,12 +141,13 @@ main {
     font-size: 25px;
     font-weight: 600;
     padding: 0 84px;
-    background: linear-gradient(to right,#009cb9, #0460a4);
+    background: linear-gradient(to right, #009cb9, #0460a4);
     background-clip: text;
     color: transparent;
     text-align: center;
 
 }
+
 .titleWeHave {
     padding: 60px 10px 20px;
     font-size: 55px;
@@ -155,36 +156,44 @@ main {
     text-align: center;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
-.textWeHave{
+
+.textWeHave {
     font-size: 30px;
     color: var(--textGold);
     font-weight: 600;
     text-align: center;
     padding: 33px 33px;
 }
-.containFatherPas, .containerCardPs{
+
+.containFatherPas,
+.containerCardPs {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.containerCardPs{
+
+.containerCardPs {
     margin-bottom: 40px;
 }
-.imgPas{
+
+.imgPas {
     height: auto;
     width: 200px;
 }
-.textPas{
+
+.textPas {
     text-align: center;
     font-size: 23px;
     color: var(--textBlueBold);
     font-weight: 600;
 }
-.NumPass{
+
+.NumPass {
     font-size: 40px;
 }
-.containLet{
+
+.containLet {
     margin-top: 50px;
     display: flex;
     flex-direction: column;
@@ -192,13 +201,15 @@ main {
     align-items: center;
     background-color: var(--textGold);
 }
-.textLet{
+
+.textLet {
     padding: 45px 13px 20px;
     font-size: 28px;
     text-align: center;
     color: var(--whiteGeneral);
 }
-.buttonLet{
+
+.buttonLet {
     height: 3rem;
     width: 12rem;
     font-weight: 600;
@@ -209,4 +220,3 @@ main {
     margin: 30px 0;
     font-size: 22px;
 }
-
