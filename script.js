@@ -12,18 +12,6 @@ close.addEventListener("click", () => {
   nav.classList.remove("visible");
 });
 
-/* active or desactive placeholder*/
-
-function clearPlaceholder(element) {
-  element.setAttribute("placeholder", "");
-}
-
-function restorePlaceholder(element) {
-  if (element.value === "") {
-      element.setAttribute("placeholder", element.getAttribute("data-original-placeholder"));
-  }
-}
-
 /* Validate password */
 
 const passwordInput = document.getElementById("password");
