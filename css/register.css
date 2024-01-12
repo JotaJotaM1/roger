@@ -16,15 +16,17 @@
 }
 
 main {
-    margin-top: 90px;
+    margin-top: 70px;
 }
-.containForm{
+
+.containForm {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.titleH1Re{
+
+.titleH1Re {
     padding: 0 10px;
     font-size: 40px;
     color: var(--textGold);
@@ -32,18 +34,12 @@ main {
     text-align: center;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
-.textH1Re{
+
+.textH1Re {
     padding: 15px;
     color: var(--textBlueBold);
     font-size: 20px;
     text-align: center;
-}
-
-.containFatherFormRe {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center
 }
 
 .containFormRe {
@@ -58,13 +54,14 @@ main {
 }
 
 .bi-envelope-fill,
-.bi-lock-fill, 
+.bi-lock-fill,
 .bi-check-square-fill {
     color: var(--textGold);
     position: absolute;
     top: calc(50%);
     left: 15px;
 }
+
 .inputFormRe {
     border: 1px solid rgb(190, 188, 188);
     border-radius: 0.8rem;
@@ -123,6 +120,14 @@ main {
 
 @media screen and (min-width: 1024px) {
 
+    .titleH1Re {
+        font-size: 50px;
+    }
+
+    .textH1Re {
+        font-size: 26px;
+    }
+
     .containFatherFormRe {
         justify-content: center;
     }
@@ -131,4 +136,31 @@ main {
         width: 400px;
     }
 
+    .containFormRe {
+        width: 500px;
+    }
+
+    .inputFormRe {
+        padding: 35px 0 35px 41px;
+        width: 100%;
+        font-size: 19px;
+    }
+
+    .bi-envelope-fill,
+    .bi-lock-fill,
+    .bi-check-square-fill {
+        font-size: 21px;
+    }
+
+    .textAlreadry {
+        font-size: 23px;
+        padding: 28px 0;
+
+    }
+
+    .buttonOneRe {
+        width: 8rem;
+        font-size: 20px;
+
+    }
 }

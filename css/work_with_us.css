@@ -33,7 +33,7 @@
   text-align: center;
 }
 
-.containMenUS{
+.containMenUS {
   display: flex;
   justify-content: center;
 }
@@ -73,7 +73,6 @@
 }
 
 .inputFormUS,
-.selectServiceUS,
 .inputFormUSAttach {
   border: 1px solid rgb(190, 188, 188);
   border-radius: 0.8rem;
@@ -81,6 +80,7 @@
   width: 340px;
   padding: 0px 0 0 15px;
 }
+
 .inputFormUS:focus {
   outline-color: var(--textGold);
 }
@@ -95,10 +95,6 @@
   border-radius: 4px;
   overflow: hidden;
   margin-bottom: 40px;
-}
-
-.selectServiceUS {
-  margin-bottom: 20px;
 }
 
 .IconAtta {
@@ -126,7 +122,7 @@
 
 .buttonOneUS:hover,
 .buttonTwoUS:hover {
-  background-color: var(--textBlueBold);
+color: var(--textBlueBold);
 }
 
 @media screen and (min-width:768px) {
@@ -167,21 +163,46 @@
 @media screen and (min-width:1024px) {
 
   .titleUS {
-    font-size: 70px;
-    padding: 0 18%;
+    font-size: 80px;
+    padding: 0 10%;
   }
 
   .textUS {
-    font-size: 22px;
+    font-size: 30px;
     padding: 21px 27%;
   }
 
-  .men_us_Pc {
-    width: 142%;
+  .containFormUS {
+    width: 520px;
+    padding: 32px 30px 48px;
   }
 
-  .containMenForm{
-    gap: 64px;
+  .containMenForm {
+    gap: 107px;
   }
+
+  .men_us_Pc {
+    width: 172%;
+  }
+
+  .labelFormUS {
+    font-size: 23px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  }
+
+  .inputFormUS,
+  .inputFormUSAttach {
+    width: 100%;
+  }
+  .custom-file-upload{
+    font-size: 23px;
+    height: 42px;
+  }
+  .buttonOneUS, .buttonTwoUS{
+    height: 3rem;
+    width: 9rem;
+    font-size: 25px;
+  }
+
 
 }

@@ -123,6 +123,17 @@ footer {
         flex-direction: row;
         justify-content: space-around;
     }
+    .containSocial{
+        width: 300px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .bi-facebook,
+    .bi-instagram,
+    .bi-linkedin {
+        font-size: 45px;
+    }
 
 
 }

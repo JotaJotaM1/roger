@@ -45,7 +45,6 @@ main {
 
 .textH1 {
     color: var(--textGold);
-    text-decoration: underline 5px;
     font-size: 70px;
     font-weight: 600;
     padding: 15px 0 20px;
@@ -61,10 +60,6 @@ main {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-.call-woman {
-    display: none;
-}
-
 /* Form styles */
 
 .containFatherForm {
@@ -74,7 +69,6 @@ main {
     justify-content: center;
     padding: 30px 0 70px;
 }
-
 
 .formLogin {
     display: flex;
@@ -121,10 +115,10 @@ main {
     border-radius: 0.8rem;
     height: 50px;
     padding: 0 0 0 20px;
-    width: 100%;    
+    width: 100%;
 }
 
-.inputForm:focus{
+.inputForm:focus {
     outline-color: var(--textGold);
 }
 
@@ -249,7 +243,6 @@ main {
 }
 
 .textSectionThree {
-    text-decoration: underline 5px;
     color: var(--textGold);
     font-size: 40px;
     font-weight: 600;
@@ -322,8 +315,7 @@ main {
     margin: 40px 0;
 }
 
-.tittleComments,
-.textComments {
+.tittleComments{
     font-size: 45px;
     color: var(--textBlueBold);
     font-weight: 600;
@@ -384,19 +376,24 @@ main {
     }
 
     .textSectionThree {
-        font-size: 60px;
+        font-size: 45px;
     }
 
-    .tittleComments,
-    .textComments {
+    .tittleComments{
         font-size: 60px;
     }
 
     @media screen and (min-width: 1024px) {
 
         .titleH1 {
-            font-size: 100px;
+            font-size: 110px;
             padding: 9px 30px 0;
+        }
+        .textH1 {
+            font-size: 75px;
+        }
+        .spanOne{
+            font-size: 45px;
         }
 
         .sectionOne {
@@ -411,12 +408,6 @@ main {
             padding: 30px 0 26px;
         }
 
-        .call-woman {
-            display: block;
-            height: auto;
-            width: 170%;
-        }
-
         .containFatherH1 {
             display: flex;
             flex-direction: column;
@@ -424,19 +415,16 @@ main {
             align-items: center;
         }
 
-        .containWomanCall {
-            width: 30%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
         .formLogin {
-            width: 100%;
+            width: 400px;
         }
 
         .flexContainer {
             width: 100%;
+        }
+
+        .inputForm {
+            font-size: 17px;
         }
 
         .contaFatheSectionTwo {
@@ -450,21 +438,57 @@ main {
             width: 70%;
         }
 
+        .titleH2 {
+            font-size: 100px;
+        }
+
+        .textH2 {
+            font-size: 45px;
+        }
+
         .containImgDescrip {
             justify-content: space-around;
         }
 
-        .textSectionTwo {
-            font-size: 100px;
+        .imgStepbyStep {
+            height: 300px;
+            width: 300px;
+        }
+
+        .StepbyStep {
+            font-size: 30px;
+        }
+
+        .buttonBook {
+            font-size: 22px;
         }
 
         .containerFatherCard {
             margin: 0 14%;
         }
 
+        .textCard {
+            font-size: 21px;
+        }
+
+        .textH3Card {
+            font-size: 25px;
+            padding-left: 10px;
+        }
+
+        .textSectionTwo {
+            font-size: 100px;
+        }
+
         .textSectionThree {
             padding: 28px 28%;
         }
+        .tittleComments{
+            font-size: 90px;
+            color: var(--textBlueBold);         text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+
+        }
+
 
     }
 }

@@ -206,7 +206,7 @@ main {
 
 .textLet {
     padding: 45px 13px 20px;
-    font-size: 28px;
+    font-size: 34px;
     text-align: center;
     color: var(--whiteGeneral);
 }
@@ -218,9 +218,13 @@ main {
     color: var(--textGold);
     background-color: var(--whiteGeneral);
     border: none;
-    border-radius: 0.3rem;
+    border-radius: 0.8rem;
     margin: 30px 0;
     font-size: 22px;
+    cursor: pointer;
+}
+.buttonLet:hover{
+    color: var(--textBlueBold);
 }
 
 @media screen and (min-width: 768px) {
@@ -315,7 +319,7 @@ main {
     }
 
     .textCard {
-        font-size: 34px;
+        font-size: 28px;
 
     }
 
@@ -363,7 +367,7 @@ main {
         justify-content: space-evenly;
     }
     .textLet{
-        font-size: 35px;
+        font-size: 40px;
         padding: 5% 0;
     } 
     .buttonLet{
