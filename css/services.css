@@ -42,14 +42,14 @@ main {
 
 .titleH1Se {
     color: var(--whiteGeneral);
-    font-size: 70px;
+    font-size: 75px;
     font-weight: 900;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .textH1Se {
     color: var(--whiteGeneral);
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
@@ -73,7 +73,7 @@ main {
 }
 
 .cardGeneral {
-    margin-bottom: 40px;
+    margin-bottom: 70px;
 }
 
 .ImgBox {
@@ -100,18 +100,19 @@ main {
 
 .buttonGetSe {
     height: 2rem;
-    width: 7rem;
+    width: 10rem;
     font-weight: 600;
     color: var(--whiteGeneral);
     background-color: var(--textGold);
     border: none;
     border-radius: 0.3rem;
-    margin-top: 20px;
+    margin-top: 30px;
+    font-size: 18px;
 }
 
-.titleInPuff {
+.titleInPuff{
     padding: 60px 10px 20px;
-    font-size: 40px;
+    font-size: 60px;
     color: var(--textGold);
     font-weight: 900;
     text-align: center;
@@ -137,12 +138,75 @@ main {
 }
 
 .textImgInPuff {
-    background: linear-gradient(to right, #0460a4, #009cb9);
+    font-size: 25px;
+    font-weight: 600;
+    padding: 0 84px;
+    background: linear-gradient(to right,#009cb9, #0460a4);
     background-clip: text;
     color: transparent;
-    display: inline-block;
-    font-weight: 600;
-    width: 150px;
     text-align: center;
 
 }
+.titleWeHave {
+    padding: 60px 10px 20px;
+    font-size: 60px;
+    color: var(--textBlueBold);
+    font-weight: 900;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+.textWeHave{
+    font-size: 30px;
+    color: var(--textGold);
+    font-weight: 600;
+    text-align: center;
+    padding: 33px 33px;
+}
+.containFatherPas, .containerCardPs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.containerCardPs{
+    margin-bottom: 40px;
+}
+.imgPas{
+    height: auto;
+    width: 200px;
+}
+.textPas{
+    text-align: center;
+    font-size: 23px;
+    color: var(--textBlueBold);
+    font-weight: 600;
+}
+.NumPass{
+    font-size: 40px;
+}
+.containLet{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--textGold);
+}
+.textLet{
+    padding: 45px 13px 20px;
+    font-size: 28px;
+    text-align: center;
+    color: var(--whiteGeneral);
+}
+.buttonLet{
+    height: 3rem;
+    width: 12rem;
+    font-weight: 600;
+    color: var(--textGold);
+    background-color: var(--whiteGeneral);
+    border: none;
+    border-radius: 0.3rem;
+    margin: 30px 0;
+    font-size: 22px;
+}
+
