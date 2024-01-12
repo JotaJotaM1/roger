@@ -1,0 +1,119 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+
+/* Styles for general elements */
+* {
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+:root {
+    --textGold: #dd9219;
+    --textBlueBold: #0160A3;
+    --backgroundBlue: #31A2BC;
+    --whiteGeneral: white;
+}
+
+main {
+    margin-top: 70px;
+}
+
+.containH1Se {
+    position: relative;
+    text-align: center;
+    padding: 70px 0;
+}
+
+.containH1Se::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: brightness(0.4);
+    z-index: -1;
+}
+
+.titleH1Se {
+    color: var(--whiteGeneral);
+    font-size: 70px;
+    font-weight: 900;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.textH1Se {
+    color: var(--whiteGeneral);
+    font-size: 18px;
+    font-weight: 500;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.sectionTwoGeneral {
+    margin: 40px 0;
+}
+
+.containCardSe {
+    display: grid;
+    padding: 10px;
+}
+
+.cardGeneral,
+.cardImgGeneral {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cardGeneral {
+    margin-bottom: 40px;
+}
+
+.ImgBox {
+    border: 10px solid var(--textBlueBold);
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+}
+
+.titleCard {
+    font-size: 25px;
+    color: var(--textBlueBold);
+    font-weight: 900;
+    padding: 15px 0;
+}
+
+.textCard {
+    text-align: center;
+    padding: 10px 22px;
+    font-size: 17px;
+    color: gray;
+    font-weight: 300;
+}
+
+.buttonGetSe {
+    height: 2rem;
+    width: 7rem;
+    font-weight: 600;
+    color: var(--whiteGeneral);
+    background-color: var(--textGold);
+    border: none;
+    border-radius: 0.3rem;
+    margin-top: 20px;
+}
+
+.titleInPuff {
+    padding: 0 10px;
+    font-size: 40px;
+    color: var(--textGold);
+    font-weight: 900;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
