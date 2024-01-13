@@ -31,7 +31,7 @@ main {
 
 .titleH1GQ {
   padding-top: 60px;
-  color: var(--textGold);
+  color: var(--whiteGeneral);
   font-size: 40px;
   font-weight: 900;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -43,15 +43,15 @@ main {
   margin: 20px 0 50px;
   text-align: center;
   color: var(--whiteGeneral);
-
 }
 
 .containIconBN {
-  margin: 30px 0;
+  padding: 50px 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: var(--textGold);
 }
 
 .iconInfoBn {
@@ -73,13 +73,11 @@ main {
 .textIconBN {
   font-size: 20px;
   color: var(--whiteGeneral);
-
 }
 
 .womanGP_cel {
   height: auto;
   width: 80%;
-
 }
 
 .containFatherForm,
@@ -91,14 +89,21 @@ main {
 }
 
 .containForm {
+  margin-bottom: 50px;
   display: flex;
   flex-direction: column;
   padding: 28px 13px;
   border: 1px solid rgb(183, 183, 183);
   border-radius: 0.5rem;
-  box-shadow: 0px 0px 6px 0px black;
+  box-shadow: 0px 0px 1px 0px black;
   background-color: var(--whiteGeneral);
   color: var(--textBlueBold);
+}
+
+.formGroup {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .labelForm {
@@ -113,18 +118,15 @@ main {
   border-radius: 0.2rem;
   height: 30px;
   width: 340px;
+  padding: 0 0 0 17px;
 }
 
-.inputForm:focus{
+.inputForm:focus {
   outline-color: var(--textGold);
 }
 
 #message {
   height: 100px;
-}
-
-.selectService {
-  margin-bottom: 20px;
 }
 
 .containButtos {
@@ -222,16 +224,66 @@ main {
     gap: 20%;
   }
 
-  .containTextGQ {
-    width: 400px;
-  }
-
   .titleH1GQ {
-    font-size: 46px;
+    font-size: 80px;
   }
 
   .textH1GQ {
-    font-size: 23px;
+    font-size: 33px;
+    padding: 0px 13%;
   }
 
+  .SectionH1 {
+    padding: 70px 0;
+  }
+
+  .containForm {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25px;
+    width: 800px;
+    padding: 37px 46px;
+    border-radius: 1rem;
+  }
+
+  .labelForm {
+    font-size: 22px;
+  }
+
+  .inputForm,
+  .selectService {
+
+    border-radius: 0.5rem;
+    height: 45px;
+    width: 340px;
+  }
+
+  .containButtos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 40px;
+    gap: 47px;
+    width: 100%;
+  }
+
+  .buttonOneGQ,
+  .buttonTwoGQ {
+    height: 3rem;
+    width: 8rem;
+    font-size: 22px;
+  }
+
+  .containIconBN {
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 60px 0;
+    font-size: 30px;
+  }
+
+  .textIconBN {
+    font-size: 30px;
+  }
+  
 }
