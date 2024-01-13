@@ -210,7 +210,7 @@ main {
   .sectionOneGQ {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: end;
     width: 78%;
     margin-left: 10%;
   }

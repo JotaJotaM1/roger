@@ -19,6 +19,15 @@ main {
     margin-top: 70px;
 }
 
+.imgLogo{
+    height: 250px;
+    width: 250px;
+}
+.carousel{
+    background-color: rgb(91, 91, 91);
+}
+
+
 .containH1Se {
     position: relative;
     text-align: center;
