@@ -19,15 +19,57 @@ main {
     margin-top: 70px;
 }
 
-.containForm {
+.containFatherFormRe {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
+
 }
 
+.containWelcomeRe {
+    background:
+        url(../img/BURBU.png) no-repeat right bottom,
+        url(../img/BURBU.png) no-repeat left top;
+    background-size: 150px;
+    color: var(--whiteGeneral);
+    background-color: var(--textGold);
+    padding: 40px 20px;
+    text-align: center;
+
+}
+
+.containFormRe {
+    border-radius: 1rem;
+    padding: 20px;
+}
+
+.titleWeRe {
+    font-weight: 900;
+    font-size: 58px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.textWeRe {
+    padding: 30px 0 50px;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+.sng{
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--textBlueBold);
+    cursor: pointer;
+}
+.aSng{
+    text-decoration-color: var(--textBlueBold);
+}
+.sng:active {
+    transform: translate(0em, 0.2em);
+   }
+
 .titleH1Re {
-    padding: 0 10px;
     font-size: 40px;
     color: var(--textGold);
     font-weight: 900;
@@ -36,20 +78,13 @@ main {
 }
 
 .textH1Re {
-    padding: 15px;
+    padding: 15px 0;
     color: var(--textBlueBold);
     font-size: 20px;
     text-align: center;
 }
 
-.containFormRe {
-    display: flex;
-    flex-direction: column;
-    padding: 0 28px 13px;
-    width: 380px;
-}
-
-.containPrueba {
+.containInputSe {
     position: relative;
 }
 
@@ -83,6 +118,12 @@ main {
     font-weight: 600;
 }
 
+.textAuto {
+    font-size: 13px;
+    color: gray;
+    padding-bottom: 20px;
+}
+
 .loginRe {
     color: var(--textGold);
 }
@@ -112,8 +153,20 @@ main {
 
 @media screen and (min-width: 768px) {
 
+    .containWelcomeRe {
+        width: 500px;
+
+    }
+
+    .containFatherFormRe {
+        display: flex;
+        flex-direction: row;
+    }
+
     .containFormRe {
-        margin: 0;
+        padding: 25px;
+        box-shadow: 0px 0px 4px 0px grey;
+        width: 500px;
     }
 
 }
@@ -128,16 +181,8 @@ main {
         font-size: 26px;
     }
 
-    .containFatherFormRe {
-        justify-content: center;
-    }
-
     .containFormH1 {
         width: 400px;
-    }
-
-    .containFormRe {
-        width: 500px;
     }
 
     .inputFormRe {

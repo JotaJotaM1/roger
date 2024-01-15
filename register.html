@@ -44,45 +44,55 @@
 
         <!-- Section One Form register -->
 
-        <section class="containFatherFormRe">
+        <section class="sectionFatherFormRe">
 
-            <div class="containForm">
-                <div>
-                    <h1 class="titleH1Re">CREATE YOUR ACCOUNT</h1>
-                    <p class="textH1Re">Join us! Create your account today.</p>
-                </div>
-                <div>
-                    <form class="containFormRe" action="/procesar_formulario" method="post"
-                        enctype="multipart/form-data" onsubmit="return validateForm()">
-
-                        <div class="containPrueba">
-                            <i class="bi bi-envelope-fill"></i>
-                            <input class="inputFormRe" type="email" id="email" name="email" placeholder="Email"
-                                required>
-                        </div>
-
-                        <div class="containPrueba">
-                            <i class="bi bi-lock-fill"></i>
-                            <input class="inputFormRe" type="password" id="password" name="password"
-                                placeholder="Password" required>
-                        </div>
-
-                        <div class="containPrueba">
-                            <i class="bi bi-check-square-fill"></i>
-                            <input class="inputFormRe" type="password" id="confirmPassword" name="confirmPassword"
-                                placeholder="Confirm Password" oninput="validatePassword()" required>
-                            <div>
-                                <span id="confirmError" class="error-message"></span>
-                            </div>
-                        </div>
-
-                        <p class="textAlreadry">Already a member? <a href="index.html" class="loginRe">Login</a></p>
-                        <div class="containButtosRe">
-                            <input class="buttonOneRe" type="submit" value="REGISTER">
-                        </div>
-                    </form>
+            <div class="containFatherFormRe">
+                <div class="containWelcomeRe">
+                    <p class="titleWeRe">WELCOME</p>
+                    <p class="textWeRe">Welcome to Puff Cleaning! Fill out our form to get in touch with us. If you
+                        already have an account, log in! Thank you for choosing us!</p>
+                    <a href="index.html" class="aSng">
+                        <p class="sng">SIGN IN</p>
+                    </a>
 
                 </div>
+                <form class="containFormRe" action="/procesar_formulario" method="post" enctype="multipart/form-data"
+                    onsubmit="return validateForm()">
+                    <div>
+                        <h1 class="titleH1Re">CREATE YOUR ACCOUNT</h1>
+                        <p class="textH1Re">Join us! Create your account today.</p>
+                    </div>
+
+                    <div class="containInputSe">
+                        <i class="bi bi-envelope-fill"></i>
+                        <input class="inputFormRe" type="email" id="email" name="email" placeholder="Email" required>
+                    </div>
+
+                    <div class="containInputSe">
+                        <i class="bi bi-lock-fill"></i>
+                        <input class="inputFormRe" type="password" id="password" name="password" placeholder="Password"
+                            required>
+                    </div>
+
+                    <div class="containInputSe">
+                        <i class="bi bi-check-square-fill"></i>
+                        <input class="inputFormRe" type="password" id="confirmPassword" name="confirmPassword"
+                            placeholder="Confirm Password" oninput="validatePassword()" required>
+                        <div>
+                            <span id="confirmError" class="error-message"></span>
+                        </div>
+                    </div>
+
+                    <p class="textAlreadry">Already a member? <a href="index.html" class="loginRe">Login</a></p>
+
+                    <p class="textAuto">By providing any information, you confirm that you have read and accepted the
+                        Terms of Service of Puff Cleaning & Repair. Additionally, you grant consent for our affiliates
+                        and their networks to send marketing and other materials using the provided information.</p>
+
+                    <div class="containButtosRe">
+                        <input class="buttonOneRe" type="submit" value="REGISTER">
+                    </div>
+                </form>
             </div>
         </section>
 

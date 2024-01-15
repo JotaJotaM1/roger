@@ -91,9 +91,9 @@ main {
   cursor: pointer;
 }
 
-.buttonGQNav:hover {
-  color: var(--textBlueBold);
-}
+.buttonGQNav:active {
+  transform: translate(0em, 0.2em);
+ }
 
 @media screen and (max-width: 948px) {
 
