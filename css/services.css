@@ -19,11 +19,12 @@ main {
     margin-top: 70px;
 }
 
-.imgLogo{
+.imgLogo {
     height: 250px;
     width: 250px;
 }
-.carousel{
+
+.carousel {
     background-color: rgb(91, 91, 91);
 }
 
@@ -119,6 +120,34 @@ main {
     border-radius: 0.3rem;
     margin-top: 30px;
     font-size: 18px;
+}
+
+.containSectionOur,
+.containFatherOur {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(173, 173, 173);
+    gap: 50px;
+    
+}
+.containFatherOur{
+    margin-bottom: 40px;
+}
+
+.titleCustomers{
+    padding: 40px 0px 0px;
+    font-size: 40px;
+    color: var(--whiteGeneral);
+    font-weight: 900;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.logoOur {
+    height: auto;
+    width: 200px;
 }
 
 .titleInPuff {
@@ -232,7 +261,8 @@ main {
     font-size: 22px;
     cursor: pointer;
 }
-.buttonLet:hover{
+
+.buttonLet:hover {
     color: var(--textBlueBold);
 }
 
@@ -365,23 +395,28 @@ main {
     .textWeHave {
         font-size: 40px;
     }
-    .imgPas{
+
+    .imgPas {
         width: 300px;
     }
-    .textPas{
+
+    .textPas {
         font-size: 35px;
     }
-    .containLet{
+
+    .containLet {
         flex-direction: row;
         justify-content: space-evenly;
     }
-    .textLet{
+
+    .textLet {
         font-size: 40px;
         padding: 5% 0;
-    } 
-    .buttonLet{
-    height: 4rem;
-    width: 14rem;
+    }
+
+    .buttonLet {
+        height: 4rem;
+        width: 14rem;
     }
 
 }

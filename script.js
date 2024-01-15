@@ -38,9 +38,6 @@ function validateForm() {
   return confirmError.style.color === "green";
 }
 
-
-/* Validate password */
-
 document.addEventListener("DOMContentLoaded", function () {
   let currentSlide = 0;
   const slides = document.querySelectorAll(".carousel-slide");
@@ -58,35 +55,4 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
-  // Muestra la primera imagen al cargar la página
-  showSlide(currentSlide);
-
-  // Función para mostrar la siguiente imagen
-  function nextSlide() {
-    currentSlide = (currentSlide + 1) % slides.length;
-    showSlide(currentSlide);
-  }
-
-  // Función para mostrar la imagen anterior
-  function prevSlide() {
-    currentSlide = (currentSlide - 1 + slides.length) % slides.length;
-    showSlide(currentSlide);
-  }
-
-  // Agrega eventos a los botones de navegación
-  if (nextBtn) {
-    nextBtn.addEventListener("click", function() {
-      nextSlide();
-    });
-  }
-
-  if (prevBtn) {
-    prevBtn.addEventListener("click", function() {
-      prevSlide();
-    });
-  }
 });
-
-
-
-
