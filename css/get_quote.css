@@ -51,6 +51,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background:url(../img/BURBU.png) no-repeat top right / 120px;
   background-color: var(--textGold);
 }
 
@@ -133,6 +134,7 @@ main {
   margin: 0 40px;
   display: flex;
   justify-content: space-around;
+  
 }
 
 .buttonOneGQ,
@@ -161,7 +163,7 @@ main {
 
   .titleH1GQ {
     padding: 0;
-    font-size: 34px;
+    font-size: 51px;
   }
 
   .textH1GQ {
@@ -182,9 +184,23 @@ main {
     align-items: center;
 
   }
-
   .containTextGQ {
     margin: 0;
+  }
+  .containForm{
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 730px;
+    gap: 20px;
+    padding: 14px 14px;
+    border-radius: 0.5rem;
+  }
+  .containButtos{
+    align-items: center;
+    justify-content: center;
+    margin: 0 40px;
+    gap: 47px;
+    width: 100%;
   }
 
   .containerWomanGQ {
@@ -238,7 +254,6 @@ main {
   }
 
   .containForm {
-    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 25px;
@@ -259,15 +274,6 @@ main {
     width: 340px;
   }
 
-  .containButtos {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 40px;
-    gap: 47px;
-    width: 100%;
-  }
-
   .buttonOneGQ,
   .buttonTwoGQ {
     height: 3rem;
@@ -280,6 +286,10 @@ main {
     justify-content: space-evenly;
     padding: 60px 0;
     font-size: 30px;
+    background:
+    url(../img/BURBU.png) no-repeat top left / 200px,
+    url(../img/BURBU.png) no-repeat top right / 200px;
+background-color: var(--textGold);
   }
 
   .textIconBN {

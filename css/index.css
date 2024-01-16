@@ -32,15 +32,17 @@ main {
 .titleH1 {
     font-size: 70px;
     font-weight: 600;
-    line-height: 0.5;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     color: var(--whiteGeneral);
 }
 
 .spanOne {
+    padding: 0 24px;
+    line-height: 1;
     font-size: 35px;
     font-weight: 600;
-    margin: 0 0 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: var(--whiteGeneral);
 }
 
 .textH1 {
@@ -382,8 +384,9 @@ main {
     .tittleComments{
         font-size: 60px;
     }
+}
 
-    @media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
 
         .titleH1 {
             font-size: 110px;
@@ -404,7 +407,6 @@ main {
 
         .containFatherForm {
             margin: 0;
-            width: 30%;
             padding: 30px 0 26px;
         }
 
@@ -486,9 +488,12 @@ main {
         .tittleComments{
             font-size: 90px;
             color: var(--textBlueBold);         text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
-
+        }
+        .contaFatheSectionFour{
+            background:
+            url(../img/circles.webp) no-repeat top right;
+        background-size: 200px;
         }
 
 
     }
-}

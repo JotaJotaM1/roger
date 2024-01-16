@@ -186,7 +186,6 @@ main {
     background-clip: text;
     color: transparent;
     text-align: center;
-
 }
 
 .titleWeHave {
@@ -240,6 +239,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background: url(../img/BURBU.png) no-repeat bottom left / 110px;
     background-color: var(--textGold);
 }
 
@@ -354,6 +354,9 @@ main {
     }
 
     .containFatherSe {
+        background: url(../img/circles.webp) no-repeat top left,
+            url(../img/circles.webp) no-repeat bottom right;
+        background-size: 290px;
         grid-template-columns: repeat(2, 700px);
     }
 
@@ -364,7 +367,6 @@ main {
 
     .textCard {
         font-size: 28px;
-
     }
 
     .titleCard {
@@ -380,12 +382,23 @@ main {
     .logoOur {
         width: 350px;
     }
-    .containFatherOur{
+
+    .containSectionOur{
+        padding: 60px 0;
+    }
+
+    .containFatherOur {
+
         justify-content: space-evenly;
     }
 
     .containFatherInPuff {
         margin: 40px 0 120px;
+    }
+
+    .sectionInPuff {
+        background: url(../img/circles.webp) no-repeat top left;
+        background-size: 290px;
     }
 
     .titleInPuff {
@@ -398,6 +411,11 @@ main {
 
     .textImgInPuff {
         font-size: 30px;
+    }
+
+    .sectionWeHave {
+        background: url(../img/circles.webp) no-repeat top right;
+        background-size: 290px;
     }
 
     .titleWeHave {
@@ -417,6 +435,10 @@ main {
     }
 
     .containLet {
+        background:
+            url(../img/BURBU.png) no-repeat top left / 220px 220px,
+            url(../img/BURBU.png) no-repeat top right / 220px 220px;
+        background-color: var(--textGold);
         flex-direction: row;
         justify-content: space-evenly;
     }
