@@ -134,7 +134,7 @@ color: var(--textBlueBold);
   padding:50px 0 40px;
 }
 .accordion{
-  padding: 20px;
+  padding: 20px 15px;
 }
 .accordion-button{
   font-size: 20px;
