@@ -141,7 +141,6 @@ color: var(--textBlueBold);
   font-weight: 600;
 }
 
-
 @media screen and (min-width:768px) {
 
   .titleUS {
@@ -173,6 +172,13 @@ color: var(--textBlueBold);
   .men_us_Pc {
     display: flex;
     width: 121%;
+  }
+  .titleWhyUs{
+    border-top: 35px solid var(--textGold);
+    padding: 50px 19% 15px;
+  }
+  .accordion{
+    padding: 20px 10% 30px;
   }
 
 }
@@ -219,6 +225,28 @@ color: var(--textBlueBold);
     height: 3rem;
     width: 9rem;
     font-size: 25px;
+  }
+  .titleWhyUs{
+    font-size: 50px;
+  }
+  .accordion-button{
+    font-size: 26px;
+  }
+  .textStrongUs{
+    font-size: 22px;
+  }
+  .accordion{
+    padding: 20px 22% 100px;
+  }
+  .sectionAccordion{
+    background:
+        url(../img/circles.webp) no-repeat bottom left;
+    background-size: 200px;
+  }
+
+  .titleWhyUs{
+    border-top: 35px solid var(--textGold);
+    padding: 100px 19% 15px;
   }
 
 
