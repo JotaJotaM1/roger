@@ -28,26 +28,13 @@ main {
     background-color: rgb(91, 91, 91);
 }
 
-
-.containH1Se {
-    position: relative;
-    text-align: center;
-    padding: 70px 0;
+.sectionTwoGeneral {
+    background-color: var(--textBlueBold);
 }
 
-.containH1Se::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-image: url(../img/banner.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    filter: brightness(0.4);
-    z-index: -1;
+.containH1Se {
+    text-align: center;
+    padding: 70px 0;
 }
 
 .titleH1Se {
@@ -62,6 +49,10 @@ main {
     font-size: 20px;
     font-weight: 500;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.imgMenSe {
+    display: none;
 }
 
 .sectionTwoGeneral {
@@ -268,6 +259,24 @@ main {
 }
 
 @media screen and (min-width: 768px) {
+    .titleH1Se {
+        font-size: 92px;
+    }
+    .textH1Se {
+        font-size: 24px;
+    }
+    .imgMenSe {
+        height: auto;
+        width: 300px;
+        display: block;
+    }
+
+    .sectionTwoGeneral {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--textBlueBold);
+    }
 
     .containH1Se {
         padding: 50px 0;
@@ -276,14 +285,6 @@ main {
     .titleCard {
         text-align: center;
         font-size: 30px;
-    }
-
-    .titleH1Se {
-        font-size: 130px;
-    }
-
-    .textH1Se {
-        font-size: 34px;
     }
 
     .cardGeneral {
@@ -352,6 +353,9 @@ main {
     .textH1Se {
         font-size: 40px;
     }
+    .imgMenSe{
+        width: 600px;
+    }
 
     .containFatherSe {
         background: url(../img/circles.webp) no-repeat top left,
@@ -383,7 +387,7 @@ main {
         width: 350px;
     }
 
-    .containSectionOur{
+    .containSectionOur {
         padding: 60px 0;
     }
 
