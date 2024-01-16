@@ -36,9 +36,7 @@ footer {
     margin: 40px 0 20px;
 }
 
-.bi-facebook,
-.bi-instagram,
-.bi-linkedin {
+.footerIconRedes{
     color: var(--whiteGeneral);
     font-size: 30px;
     padding: 0 10px;
@@ -95,9 +93,7 @@ footer {
         margin: 0;
     }
 
-    .bi-facebook,
-    .bi-instagram,
-    .bi-linkedin {
+    .footerIconRedes {
         padding: 2px;
     }
 
@@ -129,9 +125,7 @@ footer {
         justify-content: space-around;
     }
 
-    .bi-facebook,
-    .bi-instagram,
-    .bi-linkedin {
+    .footerIconRedes {
         font-size: 45px;
     }
 

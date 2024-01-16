@@ -15,56 +15,71 @@
     --whiteGeneral: white;
 }
 
-.btnGQ {
-    position: fixed;
-    width: 55px;
-    height: 55px;
-    line-height: 55px;
-    bottom: 20px;
-    right: 20px;
-    background-color: var(--textGold);
-    color: var(--whiteGeneral);
-    border-radius: 50%;
-    text-align: center;
+
+
+.iconsBTG {
     font-size: 30px;
-    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
-    z-index: 100;
+    color: var(--textBlueBold);
 }
 
-.btnGQ:hover {
-    text-decoration: none;
-    color: var(--textBlueBold);
-    background-color: var(--whiteGeneral);
+#btn-mas {
+    display: none;
 }
-.tooltip {
-    opacity: 0; /* Inicialmente, el texto está oculto */
-    position: absolute;
-    left: -70px; /* Ajusta la posición según sea necesario */
-    top: 50%;
-    transform: translateY(-50%);
+
+.containerBtnFixed {
+    position: fixed;
+    z-index: 9999;
+
+    bottom: 15px;
+    right: 15px;
+}
+
+.redes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes a,
+.icon-mas2 {
+    display: block;
+    text-decoration: none;
     background-color: var(--textGold);
     color: var(--whiteGeneral);
-    padding: 5px;
-    border-radius: 5px;
-    white-space: nowrap;
-    font-size: 14px;
-    transition: opacity 0.3s ease; /* Agregado para una transición suave */
+    width: 50px;
+    height:50px;
+    line-height:50px;
+    text-align: center;
+    border-radius: 100%;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.4);
+    transition: all 500ms ease;
 }
 
-.btnGQ:hover .tooltip {
-    opacity: 1; /* Muestra el texto cuando el botón se coloca sobre el ratón */
+.redes a:hover {
+    background-color: var(--whiteGeneral);
+    color: var(--textBlueBold);
+
 }
 
-@media screen and (min-width:768px) {
+.redes a {
+    margin: -15px;
+    opacity: 0;
+    visibility: hidden;
+}
 
-    .buttonCalculator {
-        font-size: 50px;
-    }
+#btn-mas:checked~.redes a {
+    margin-bottom: 20px;
+    opacity: 1;
+    visibility: visible;
+}
 
-    .btnGQ {
-        width: 90px;
-        height: 90px;
-        line-height: 95px;
-    }
+.icon-mas2 {
+    cursor: pointer;
+    font-size: 20px;
+}
 
+#btn-mas:checked~.btn-mas .icon-mas2 {
+    transform: rotate(90deg);
+    font-size: 30px;
 }
