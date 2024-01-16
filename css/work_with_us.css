@@ -17,7 +17,7 @@
   padding-top: 40px;
 }
 
-.titleUS {
+.titleUS{
   padding: 0 10px;
   font-size: 40px;
   color: var(--textGold);
@@ -124,6 +124,23 @@
 .buttonTwoUS:hover {
 color: var(--textBlueBold);
 }
+
+.titleWhyUs {
+  font-size: 40px;
+  color: var(--textBlueBold);
+  font-weight: 900;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  padding:50px 0 40px;
+}
+.accordion{
+  padding: 20px;
+}
+.accordion-button{
+  font-size: 20px;
+  font-weight: 600;
+}
+
 
 @media screen and (min-width:768px) {
 
