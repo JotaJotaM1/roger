@@ -127,8 +127,8 @@ main {
 .buttonLogin,
 .buttonBook,
 .buttonGetAfree {
-    width: 13rem;
-    height: 3.3rem;
+    width: 12rem;
+    height: 3rem;
     background-color: var(--textGold);
     color: var(--whiteGeneral);
     border-radius: 0.4rem;
@@ -317,7 +317,7 @@ main {
     margin: 40px 0;
 }
 
-.tittleComments{
+.tittleComments {
     font-size: 45px;
     color: var(--textBlueBold);
     font-weight: 600;
@@ -381,119 +381,124 @@ main {
         font-size: 45px;
     }
 
-    .tittleComments{
+    .tittleComments {
         font-size: 60px;
     }
 }
 
 @media screen and (min-width: 1024px) {
 
-        .titleH1 {
-            font-size: 110px;
-            padding: 9px 30px 0;
-        }
-        .textH1 {
-            font-size: 75px;
-        }
-        .spanOne{
-            font-size: 45px;
-        }
+    .titleH1 {
+        font-size: 90px;
+        padding: 9px 30px 0;
+    }
 
-        .sectionOne {
-            display: flex;
-            justify-content: space-evenly;
-            align-items: center;
-        }
+    .spanOne {
+        font-size: 30px;
+    }
 
-        .containFatherForm {
-            margin: 0;
-            padding: 30px 0 26px;
-        }
+    .textH1 {
+        font-size: 70px;
+    }
 
-        .containFatherH1 {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
+    .sectionOne {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
 
-        .formLogin {
-            width: 400px;
-        }
+    .containFatherForm {
+        margin: 0;
+        padding: 30px 0 26px;
+    }
 
-        .flexContainer {
-            width: 100%;
-        }
+    .containFatherH1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
-        .inputForm {
-            font-size: 17px;
-        }
+    .formLogin {
+        width: 400px;
+    }
 
-        .contaFatheSectionTwo {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
+    .flexContainer {
+        width: 100%;
+    }
 
-        .containerDescription {
-            width: 70%;
-        }
+    .inputForm {
+        font-size: 17px;
+    }
 
-        .titleH2 {
-            font-size: 100px;
-        }
+    .contaFatheSectionTwo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
-        .textH2 {
-            font-size: 45px;
-        }
+    .containerDescription {
+        width: 70%;
+    }
 
-        .containImgDescrip {
-            justify-content: space-around;
-        }
+    .titleH2 {
+        font-size:70px;
+    }
 
-        .imgStepbyStep {
-            height: 300px;
-            width: 300px;
-        }
+    .textH2 {
+        font-size: 30px;
+    }
 
-        .StepbyStep {
-            font-size: 30px;
-        }
+    .containImgDescrip {
+        justify-content: space-around;
+    }
 
-        .buttonBook {
-            font-size: 22px;
-        }
+    .imgStepbyStep {
+        height: 200px;
+        width: 200px;
+    }
 
-        .containerFatherCard {
-            margin: 0 14%;
-        }
+    .StepbyStep {
+        font-size: 22px;
+    }
 
-        .textCard {
-            font-size: 21px;
-        }
+    .buttonBook {
+        font-size: 22px;
+    }
 
-        .textH3Card {
-            font-size: 25px;
-            padding-left: 10px;
-        }
+    .containerFatherCard {
+        margin: 0 14%;
+    }
 
-        .textSectionTwo {
-            font-size: 100px;
-        }
+    .textCard {
+        font-size: 21px;
+    }
 
-        .textSectionThree {
-            padding: 28px 28%;
-        }
-        .tittleComments{
-            font-size: 90px;
-            color: var(--textBlueBold);         text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
-        }
-        .contaFatheSectionFour{
-            background:
+    .textH3Card {
+        font-size: 25px;
+        padding-left: 10px;
+    }
+
+    .textSectionTwo {
+        font-size: 100px;
+    }
+
+    .textSectionThree {
+        padding: 28px 28%;
+    }
+
+    .tittleComments {
+        font-size: 90px;
+        color: var(--textBlueBold);
+        text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+    }
+
+    .contaFatheSectionFour {
+        background:
             url(../img/circles.webp) no-repeat top right;
         background-size: 200px;
-        }
-
-
     }
+
+
+}

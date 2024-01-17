@@ -87,18 +87,17 @@
 
     .redes a,
     .icon-mas2 {
-        width: 80px;
-        height: 80px;
-        line-height: 80px;
-
+        width: 65px;
+        height: 65px;
+        line-height: 65px;
     }
     .iconsBTG{
-        font-size:40px ;
+        font-size:30px ;
 
     }
 
     .icon-mas2{
-        font-size: 30px;
+        font-size: 20px;
     }
     #btn-mas:checked~.btn-mas .icon-mas2 {
         transform: rotate(90deg);

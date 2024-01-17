@@ -51,7 +51,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background:url(../img/BURBU.png) no-repeat top right / 120px;
+  background: url(../img/BURBU.png) no-repeat top right / 120px;
   background-color: var(--textGold);
 }
 
@@ -134,7 +134,7 @@ main {
   margin: 0 40px;
   display: flex;
   justify-content: space-around;
-  
+
 }
 
 .buttonOneGQ,
@@ -184,10 +184,12 @@ main {
     align-items: center;
 
   }
+
   .containTextGQ {
     margin: 0;
   }
-  .containForm{
+
+  .containForm {
     flex-direction: row;
     flex-wrap: wrap;
     width: 730px;
@@ -195,7 +197,8 @@ main {
     padding: 14px 14px;
     border-radius: 0.5rem;
   }
-  .containButtos{
+
+  .containButtos {
     align-items: center;
     justify-content: center;
     margin: 0 40px;
@@ -224,16 +227,13 @@ main {
 @media screen and (min-width: 1024px) {
 
   .sectionOneGQ {
-    display: flex;
-    justify-content: center;
-    align-items: end;
     width: 78%;
     margin-left: 10%;
   }
 
   .womanGP_cel {
     height: auto;
-    width: 500px;
+    width: 400px;
   }
 
   .SectionH1 {
@@ -286,14 +286,14 @@ main {
     justify-content: space-evenly;
     padding: 60px 0;
     font-size: 30px;
-    background:
-    url(../img/BURBU.png) no-repeat top left / 200px,
-    url(../img/BURBU.png) no-repeat top right / 200px;
-background-color: var(--textGold);
+    background: 
+    url(../img/BURBU.png) no-repeat bottom left / 100px, 
+    url(../img/BURBU.png) no-repeat top right / 100px;
+    background-color: var(--textGold);
   }
 
   .textIconBN {
-    font-size: 30px;
+    font-size: 21px;
   }
-  
+
 }

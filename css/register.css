@@ -47,7 +47,7 @@ main {
 
 .titleWeRe {
     font-weight: 900;
-    font-size: 58px;
+    font-size:70px;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
@@ -186,14 +186,12 @@ main {
 }
 
 @media screen and (min-width: 1024px) {
-    .sectionFatherFormRe{
-        background:
-        url(../img/circles.webp) no-repeat  top right,
-        url(../img/circles.webp) no-repeat bottom left;
-    background-size: 250px;
-    }
+
     .containWelcomeRe {
         height: 722px;
+    }
+    .titleWeRe{
+        font-size: 80px;
     }
 
     .titleH1Re {

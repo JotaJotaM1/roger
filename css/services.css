@@ -143,7 +143,7 @@ main {
 }
 
 .titleInPuff {
-    padding: 100px 10px 20px;
+    padding: 120px 10px 20px;
     font-size: 60px;
     color: var(--textGold);
     font-weight: 900;
@@ -158,10 +158,6 @@ main {
     justify-content: center;
     align-items: center;
 
-}
-
-.containFatherInPuff {
-    margin-bottom: 40px;
 }
 
 .imgInPuff {
@@ -180,7 +176,7 @@ main {
 }
 
 .titleWeHave {
-    padding: 60px 10px 20px;
+    padding: 100px 0 20px;
     font-size: 55px;
     color: var(--textBlueBold);
     font-weight: 900;
@@ -262,9 +258,11 @@ main {
     .titleH1Se {
         font-size: 92px;
     }
+
     .textH1Se {
         font-size: 24px;
     }
+
     .imgMenSe {
         height: auto;
         width: 300px;
@@ -323,11 +321,14 @@ main {
     .containFatherInPuff {
         flex-direction: row;
         justify-content: space-evenly;
-        margin: 40px 0 80px
     }
 
     .textImgInPuff {
         padding: 0;
+    }
+
+    .titleWeHave {
+        padding: 70px 0 20px;
     }
 
     .textWeHave {
@@ -347,114 +348,117 @@ main {
 
 @media screen and (min-width: 1024px) {
     .titleH1Se {
-        font-size: 160px;
+        font-size: 100px;
     }
 
     .textH1Se {
-        font-size: 40px;
-    }
-    .imgMenSe{
-        width: 600px;
-    }
-
-    .containFatherSe {
-        background: url(../img/circles.webp) no-repeat top left,
-            url(../img/circles.webp) no-repeat bottom right;
-        background-size: 290px;
-        grid-template-columns: repeat(2, 700px);
-    }
-
-    .ImgBox {
-        width: 390px;
-        height: 390px;
-    }
-
-    .textCard {
         font-size: 28px;
     }
 
+    .imgMenSe {
+        width: 450px;
+    }
+
+    .containFatherSe {
+        grid-template-columns: repeat(2, 50%);
+    }
+
+    .box1,
+    .box3 {
+        background: url(../img/circles.webp) no-repeat bottom right;
+        background-size: 108px;
+    }
+
+    .box5 {
+        background: url(../img/circles.webp) no-repeat top right;
+        background-size: 108px;
+    }
+
+    .box7 {
+        background: url(../img/circles.webp) no-repeat top left;
+        background-size: 108px;
+    }
+
+
+    .ImgBox {
+        width: 350px;
+        height: 350px;
+    }
+
     .titleCard {
-        font-size: 40px;
+        font-size: 30px;
+    }
+
+    .textCard {
+        font-size: 21px;
     }
 
     .buttonGetSe {
-        height: 3.5rem;
-        width: 12rem;
+        height: 3rem;
+        width: 10rem;
         font-size: 23px;
     }
 
     .logoOur {
-        width: 350px;
-    }
-
-    .containSectionOur {
-        padding: 60px 0;
+        width: 200px;
     }
 
     .containFatherOur {
-
         justify-content: space-evenly;
     }
 
-    .containFatherInPuff {
-        margin: 40px 0 120px;
-    }
-
     .sectionInPuff {
-        background: url(../img/circles.webp) no-repeat top left;
-        background-size: 290px;
+        background: url(../img/circles.webp) no-repeat top right;
+        background-size: 212px;
     }
 
     .titleInPuff {
-        font-size: 90px;
+        font-size: 70px;
     }
 
     .imgInPuff {
-        height: 220px;
+        height: 160px;
     }
 
     .textImgInPuff {
-        font-size: 30px;
-    }
-
-    .sectionWeHave {
-        background: url(../img/circles.webp) no-repeat top right;
-        background-size: 290px;
+        font-size: 22px;
     }
 
     .titleWeHave {
-        font-size: 90px;
+        padding: 100px 0 20px;
+        font-size: 70px;
     }
 
     .textWeHave {
-        font-size: 40px;
+        padding: 0 0 50px;
+        font-size: 30px;
     }
 
     .imgPas {
-        width: 300px;
+        width: 230px;
     }
 
     .textPas {
-        font-size: 35px;
+        font-size: 30px;
     }
 
     .containLet {
         background:
-            url(../img/BURBU.png) no-repeat top left / 220px 220px,
-            url(../img/BURBU.png) no-repeat top right / 220px 220px;
+            url(../img/BURBU.png) no-repeat top left / 80px,
+            url(../img/BURBU.png) no-repeat bottom right / 80px;
         background-color: var(--textGold);
         flex-direction: row;
         justify-content: space-evenly;
     }
 
     .textLet {
-        font-size: 40px;
+        font-size: 30px;
         padding: 5% 0;
     }
 
     .buttonLet {
-        height: 4rem;
-        width: 14rem;
+        height: 3rem;
+        width: 12rem;
     }
 
 }
