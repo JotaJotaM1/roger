@@ -388,6 +388,22 @@ main {
 
 @media screen and (min-width: 1024px) {
 
+    header {
+        max-width: 1900px;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main {
+        max-width: 1900px;
+        margin-top: 84px;
+    }
+
     .titleH1 {
         font-size: 90px;
         padding: 9px 30px 0;
@@ -470,13 +486,17 @@ main {
     .containerFatherCard {
         margin: 0 14%;
     }
+    .cardContainer{
+    padding: 25px;
+    width: 20rem;
+    }
 
     .textCard {
-        font-size: 21px;
+        font-size: 16px;
     }
 
     .textH3Card {
-        font-size: 25px;
+        font-size: 19px;
         padding-left: 10px;
     }
 

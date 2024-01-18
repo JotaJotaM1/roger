@@ -262,6 +262,9 @@ main {
     .textH1Se {
         font-size: 24px;
     }
+    .textLet{
+        padding: 45px 80px 20px;
+    }
 
     .imgMenSe {
         height: auto;
@@ -347,6 +350,22 @@ main {
 }
 
 @media screen and (min-width: 1024px) {
+    header {
+        max-width: 1900px;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main {
+        max-width: 1900px;
+        margin-top: 84px;
+    }
+
     .titleH1Se {
         font-size: 100px;
     }
@@ -461,4 +480,21 @@ main {
         width: 12rem;
     }
 
+    @media screen and (min-width: 1440px){
+        .containFatherSe{
+            grid-template-columns: repeat(2, 40%);
+        }
+        .titleCard {
+            font-size: 35px;
+        }
+        .textCard {
+            font-size: 24px;
+        }
+        .containLet{
+            background-size: 145px;
+        }
+        .box1, .box3, .box7, .box5 {
+            background-size: 138px;
+        }
+    }
 }

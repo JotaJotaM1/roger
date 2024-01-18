@@ -25,7 +25,6 @@ main {
     justify-content: center;
     align-items: center;
     width: 100%;
-
 }
 
 .containWelcomeRe {
@@ -47,7 +46,7 @@ main {
 
 .titleWeRe {
     font-weight: 900;
-    font-size:70px;
+    font-size: 70px;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
@@ -156,15 +155,18 @@ main {
 
 @media screen and (min-width: 768px) {
 
+    .containWelcomeRe,
+    .containFormRe {
+        height: 615px;
+        width: 50%;
+    }
+
     .containWelcomeRe {
         border-radius: 1rem 0 0 1rem;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        height: 615px;
-        width: 500px;
-
     }
 
     .containFatherFormRe {
@@ -180,17 +182,36 @@ main {
         border: 0.5px solid rgb(222, 222, 222);
         border-radius: 0 1rem 1rem 0;
         padding: 25px;
-        width: 500px;
+
     }
 
 }
 
 @media screen and (min-width: 1024px) {
 
-    .containWelcomeRe {
-        height: 722px;
+    header {
+        max-width: 1900px;
     }
-    .titleWeRe{
+
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main {
+        max-width: 1900px;
+        margin-top: 84px;
+    }
+
+    .containWelcomeRe,
+    .containFormRe {
+        height: 720px;
+        width: 50%;
+    }
+
+    .titleWeRe {
         font-size: 80px;
     }
 
@@ -228,5 +249,14 @@ main {
         width: 8rem;
         font-size: 20px;
 
+    }
+}
+
+@media screen and (min-width: 1440px) {
+
+    .containWelcomeRe,
+    .containFormRe {
+        height: 696px;
+        width: 40%;
     }
 }

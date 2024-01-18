@@ -17,7 +17,7 @@
   padding-top: 40px;
 }
 
-.titleUS{
+.titleUS {
   padding: 0 10px;
   font-size: 40px;
   color: var(--textGold);
@@ -122,7 +122,7 @@
 
 .buttonOneUS:hover,
 .buttonTwoUS:hover {
-color: var(--textBlueBold);
+  color: var(--textBlueBold);
 }
 
 .titleWhyUs {
@@ -131,12 +131,14 @@ color: var(--textBlueBold);
   font-weight: 900;
   text-align: center;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-  padding:50px 0 20px;
+  padding: 50px 0 20px;
 }
-.accordion{
+
+.accordion {
   padding: 20px 15px 40px;
 }
-.accordion-button{
+
+.accordion-button {
   color: var(--textBlueBold);
   font-size: 20px;
   font-weight: 600;
@@ -174,20 +176,37 @@ color: var(--textBlueBold);
     display: flex;
     width: 121%;
   }
-  .titleWhyUs{
+
+  .titleWhyUs {
     border-top: 35px solid var(--textGold);
     padding: 50px 19% 15px;
   }
-  .sectionAccordion{
-    background:url(../img/circles.webp) no-repeat top left / 200px;
+
+  .sectionAccordion {
+    background: url(../img/circles.webp) no-repeat top left / 200px;
   }
-  .accordion{
+
+  .accordion {
     padding: 20px 10% 30px;
   }
 
 }
 
 @media screen and (min-width:1024px) {
+  header {
+    max-width: 1900px;
+  }
+  body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  main {
+    max-width: 1900px;
+    margin-top: 84px;
+  }
 
   .titleUS {
     font-size: 80px;
@@ -221,27 +240,34 @@ color: var(--textBlueBold);
   .inputFormUSAttach {
     width: 100%;
   }
-  .custom-file-upload{
+
+  .custom-file-upload {
     font-size: 23px;
     height: 42px;
   }
-  .buttonOneUS, .buttonTwoUS{
+
+  .buttonOneUS,
+  .buttonTwoUS {
     height: 3rem;
     width: 9rem;
     font-size: 25px;
   }
-  .accordion-button{
+
+  .accordion-button {
     font-size: 21px;
   }
-  .textStrongUs{
+
+  .textStrongUs {
     font-size: 17px;
   }
-  .accordion{
+
+  .accordion {
     padding: 20px 22% 100px;
   }
-  .sectionAccordion{
+
+  .sectionAccordion {
     background:
-        url(../img/circles.webp) no-repeat bottom right;
+      url(../img/circles.webp) no-repeat bottom right;
     background-size: 233px;
   }
 
@@ -249,6 +275,17 @@ color: var(--textBlueBold);
     font-size: 50px;
     border-top: 35px solid var(--textGold);
     padding: 43px 24% 15px;
+  }
+
 }
+
+@media screen and (min-width:1440px){
+
+  .titleUS{
+    padding: 0 22%;
+  } 
+  .titleWhyUs{
+    padding: 43px 19% 15px;
+  }
 
 }

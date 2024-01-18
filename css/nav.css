@@ -16,6 +16,7 @@
   --backgroundBlue: #31A2BC;
   --whiteGeneral: white;
 }
+
 main {
   margin-top: 80px;
 }
@@ -93,7 +94,7 @@ main {
 
 .buttonGQNav:hover {
   background-color: var(--textBlueBold);
- }
+}
 
 @media screen and (max-width: 948px) {
 
@@ -137,8 +138,24 @@ main {
   }
 }
 
-@media screen and (min-width: 798px) {
-  .menuNav {
-    padding: 0rem 4rem;
+@media screen and (min-width:1440px) {
+  .buttonGQNav{
+    font-size: 25px;
+    width: 12.5rem;
+    height: 3.5rem;
   }
+
+  .LogoHeader {
+    height: 120px;
+  }
+  .navList{
+    gap: 2rem;
+}
+
+  .navList li a {
+    font-size: 28px;
+    text-decoration: underline;
+    font-weight: 800;
+}
+
 }
