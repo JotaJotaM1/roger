@@ -141,7 +141,7 @@ main {
 .buttonOneGQ,
 .buttonTwoGQ {
   height: 3rem;
-  width: 6rem;
+  width: 6.5rem;
   background-color: var(--textGold);
   border: none;
   color: white;
