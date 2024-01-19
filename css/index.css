@@ -520,5 +520,9 @@ main {
         background-size: 170px;
     }
 
-
 }
+@media screen and (min-width: 1440px){
+    .sectionOne{
+        height: 100vh;
+    }
+} 
