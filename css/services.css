@@ -157,7 +157,6 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
 .imgInPuff {
@@ -173,51 +172,6 @@ main {
     background-clip: text;
     color: transparent;
     text-align: center;
-}
-
-.titleWeHave {
-    padding: 100px 0 20px;
-    font-size: 55px;
-    color: var(--textBlueBold);
-    font-weight: 900;
-    text-align: center;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-}
-
-.textWeHave {
-    font-size: 30px;
-    color: var(--textGold);
-    font-weight: 600;
-    text-align: center;
-    padding: 33px 33px;
-}
-
-.containFatherPas,
-.containerCardPs {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.containerCardPs {
-    margin-bottom: 40px;
-}
-
-.imgPas {
-    height: auto;
-    width: 200px;
-}
-
-.textPas {
-    text-align: center;
-    font-size: 23px;
-    color: var(--textBlueBold);
-    font-weight: 600;
-}
-
-.NumPass {
-    font-size: 40px;
 }
 
 .containLet {
@@ -262,7 +216,8 @@ main {
     .textH1Se {
         font-size: 24px;
     }
-    .textLet{
+
+    .textLet {
         padding: 45px 80px 20px;
     }
 
@@ -330,20 +285,6 @@ main {
         padding: 0;
     }
 
-    .titleWeHave {
-        padding: 70px 0 20px;
-    }
-
-    .textWeHave {
-        padding: 40px 159px;
-    }
-
-    .containFatherPas {
-        flex-direction: row;
-        justify-content: space-evenly;
-        align-items: end;
-    }
-
     .containLet {
         margin-top: 80px;
     }
@@ -398,7 +339,6 @@ main {
         background-size: 108px;
     }
 
-
     .ImgBox {
         width: 350px;
         height: 350px;
@@ -443,24 +383,6 @@ main {
         font-size: 22px;
     }
 
-    .titleWeHave {
-        padding: 100px 0 20px;
-        font-size: 70px;
-    }
-
-    .textWeHave {
-        padding: 0 0 50px;
-        font-size: 30px;
-    }
-
-    .imgPas {
-        width: 230px;
-    }
-
-    .textPas {
-        font-size: 30px;
-    }
-
     .containLet {
         background:
             url(../img/BURBU.png) no-repeat top left / 80px,
@@ -480,20 +402,27 @@ main {
         width: 12rem;
     }
 
-    @media screen and (min-width: 1440px){
-        .containFatherSe{
+    @media screen and (min-width: 1440px) {
+        .containFatherSe {
             grid-template-columns: repeat(2, 40%);
         }
+
         .titleCard {
             font-size: 35px;
         }
+
         .textCard {
             font-size: 24px;
         }
-        .containLet{
+
+        .containLet {
             background-size: 145px;
         }
-        .box1, .box3, .box7, .box5 {
+
+        .box1,
+        .box3,
+        .box7,
+        .box5 {
             background-size: 138px;
         }
     }

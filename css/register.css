@@ -55,21 +55,27 @@ main {
     font-size: 30px;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
-
-.sng {
-    font-size: 20px;
-    font-weight: 800;
+.btnSN{
+    height: 2rem;
+    width: 7rem;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 2rem;
     color: var(--textBlueBold);
     cursor: pointer;
 }
 
-.aSng {
-    text-decoration-color: var(--textBlueBold);
+.btnSN:hover{
+transition : 1000ms;
+color: #0066cc;
+border: solid 2px #0066cc;
 }
 
-.sng:active {
-    transform: translate(0em, 0.2em);
-}
+
+
+
+
 
 .titleH1Re {
     font-size: 40px;
