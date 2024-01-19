@@ -21,6 +21,11 @@
     font-size: 30px;
     color: var(--textBlueBold);
 }
+.bi-instagram{
+    background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #FD1D1D, #F56040, #FFC837, #4CAF50, #0057B5);
+    background-clip: text;
+    color: transparent; 
+}
 
 #btn-mas {
     display: none;
