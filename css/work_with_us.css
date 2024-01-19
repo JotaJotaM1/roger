@@ -196,7 +196,7 @@
   header {
     max-width: 1900px;
   }
-  body{
+  body, main{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -266,6 +266,7 @@
   }
 
   .sectionAccordion {
+    width: 100%;
     background:
       url(../img/circles.webp) no-repeat bottom right;
     background-size: 233px;
@@ -281,11 +282,25 @@
 
 @media screen and (min-width:1440px){
 
+  .sectionAccordion{
+    width: 1440px;
+  }
+
   .titleUS{
-    padding: 0 22%;
+    padding: 0 0;
   } 
+  .textUS{
+    padding: 21px 26%;
+  }
   .titleWhyUs{
     padding: 43px 19% 15px;
+  }
+  .accordion-button{
+    font-size: 30px;
+  } 
+
+  .textStrongUs{
+    font-size: 23px;
   }
 
 }

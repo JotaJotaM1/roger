@@ -202,7 +202,7 @@ main {
 
     main {
         max-width: 1900px;
-        margin-top: 84px;
+        margin-top: 5px;
     }
 
     .containWelcomeRe,
@@ -253,6 +253,10 @@ main {
 }
 
 @media screen and (min-width: 1440px) {
+
+    main{
+        margin-top: 50px;
+    }
 
     .containWelcomeRe,
     .containFormRe {
