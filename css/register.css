@@ -36,7 +36,6 @@ main {
     background-color: var(--textGold);
     padding: 40px 20px;
     text-align: center;
-
 }
 
 .containFormRe {
@@ -71,11 +70,6 @@ transition : 1000ms;
 color: #0066cc;
 border: solid 2px #0066cc;
 }
-
-
-
-
-
 
 .titleH1Re {
     font-size: 40px;
@@ -188,9 +182,7 @@ border: solid 2px #0066cc;
         border: 0.5px solid rgb(222, 222, 222);
         border-radius: 0 1rem 1rem 0;
         padding: 25px;
-
     }
-
 }
 
 @media screen and (min-width: 1024px) {
@@ -248,13 +240,10 @@ border: solid 2px #0066cc;
     .textAlreadry {
         font-size: 23px;
         padding: 28px 0;
-
     }
-
     .buttonOneRe {
         width: 8rem;
         font-size: 20px;
-
     }
 }
 
@@ -268,5 +257,15 @@ border: solid 2px #0066cc;
     .containFormRe {
         height: 696px;
         width: 40%;
+    }
+    .containWelcomeRe, .containFormRe {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 1900px) {
+
+    .containWelcomeRe, .containFormRe {
+        width: 30%;
     }
 }
